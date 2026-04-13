@@ -52,12 +52,45 @@ export default {
       collapsed: false,
       items: [
       { text: "基础信息", link: "/sdk-dev/basics/" },
-      { text: "接口说明", link: "/sdk-dev/basics/interfaces" },
-      { text: "参数配置", link: "/sdk-dev/basics/params" },
+      {
+        text: "接口说明",
+        collapsed: true,
+        items: [
+          { text: "概述", link: "/sdk-dev/basics/interfaces/" },
+          { text: "Android", link: "/sdk-dev/basics/interfaces/android" },
+          { text: "iOS", link: "/sdk-dev/basics/interfaces/ios" },
+          { text: "Windows / Linux", link: "/sdk-dev/basics/interfaces/windows-linux" },
+        ],
+      },
+      {
+        text: "参数配置",
+        collapsed: true,
+        items: [
+          { text: "概述", link: "/sdk-dev/basics/params/" },
+          { text: "Android", link: "/sdk-dev/basics/params/android" },
+          { text: "iOS / Windows / Linux", link: "/sdk-dev/basics/params/ios-windows-linux" },
+        ],
+      },
       { text: "消息事件", link: "/sdk-dev/basics/events" },
       { text: "SDK 状态", link: "/sdk-dev/basics/states" },
-      { text: "数据发送", link: "/sdk-dev/basics/data-sending" },
-      { text: "回调解析", link: "/sdk-dev/basics/callbacks" },
+      {
+        text: "数据发送",
+        collapsed: true,
+        items: [
+          { text: "概述", link: "/sdk-dev/basics/data-sending/" },
+          { text: "Android", link: "/sdk-dev/basics/data-sending/android" },
+          { text: "iOS / Windows / Linux", link: "/sdk-dev/basics/data-sending/ios-windows-linux" },
+        ],
+      },
+      {
+        text: "回调解析",
+        collapsed: true,
+        items: [
+          { text: "概述", link: "/sdk-dev/basics/callbacks/" },
+          { text: "Android", link: "/sdk-dev/basics/callbacks/android" },
+          { text: "iOS / Windows / Linux", link: "/sdk-dev/basics/callbacks/ios-windows-linux" },
+        ],
+      },
       { text: "交互结果协议", link: "/sdk-dev/basics/result-protocol" }
       ],
     },

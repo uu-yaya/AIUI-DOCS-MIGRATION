@@ -6,7 +6,7 @@ AIUIService在启动时会读取参数配置，根据配置初始化各个内部
 
 ## 配置读取
 
-AIUIService通过`android:authorities="com.iflytek.aiui.cfg.provider"`的ContentProvider读取配置，配置文件的格式和字段说明在[配置文件](/sdk-dev/basics/params)有详细的说明。
+AIUIService通过`android:authorities="com.iflytek.aiui.cfg.provider"`的ContentProvider读取配置，配置文件的格式和字段说明在[配置文件](/sdk-dev/basics/params/)有详细的说明。
 
 ControlService中实现的提供AIUI配置的ContentProvider简略代码如下:
 

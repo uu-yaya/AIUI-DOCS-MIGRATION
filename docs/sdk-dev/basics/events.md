@@ -22,16 +22,16 @@ title: 消息事件说明
 | --- | --- | --- | --- |
 | msgType（消息类型） | 取值 | 返回值 | 说明 |
 | CMD\_GET\_STATE | 1 | 有 | **获取[交互状态](/sdk-dev/basics/states)** |
-| CMD\_WRITE | 2 | 无 | **向AIUI写入数据，回调vad bos事件**   使用参考[数据写入](/sdk-dev/basics/data-sending)。 |
-| CMD\_STOP\_WRITE | 3 | 无 | **停止写入数据，回调vad eos事件**   使用参考[数据写入](/sdk-dev/basics/data-sending)。 |
+| CMD\_WRITE | 2 | 无 | **向AIUI写入数据，回调vad bos事件**   使用参考[数据写入](/sdk-dev/basics/data-sending/)。 |
+| CMD\_STOP\_WRITE | 3 | 无 | **停止写入数据，回调vad eos事件**   使用参考[数据写入](/sdk-dev/basics/data-sending/)。 |
 | CMD\_START | 5 | 无 | **启动AIUI**    AIUI停止后，使用此命令启动 |
 | CMD\_STOP | 6 | 无 | **停止AIUI**    AIUI停止之后，将不响应外部输入。 |
 | CMD\_WAKEUP | 7 | 无 | **唤醒消息**    手动唤醒AIUI，arg1为唤醒后拾音的波束号，默认为0。为了保障识别效果稳定性，请勿将手动唤醒用于延长交互时间。 |
 | CMD\_RESET\_WAKEUP | 8 | 无 | **休眠消息**    进入待唤醒状态 |
-| CMD\_SET\_PARAMS | 10 | 无 | **动态参数设置**    用params携带参数设置JSON字符串，具体格式参照aiui.cfg文件。  可动态更新参数如下  - global - speech - userparams - audioparams - TTS（语音合成）   示例:  ``` {   "global":{      "scene":"main"    } } ```   使用参考[基础配置说明](/sdk-dev/basics/params)。 |
+| CMD\_SET\_PARAMS | 10 | 无 | **动态参数设置**    用params携带参数设置JSON字符串，具体格式参照aiui.cfg文件。  可动态更新参数如下  - global - speech - userparams - audioparams - TTS（语音合成）   示例:  ``` {   "global":{      "scene":"main"    } } ```   使用参考[基础配置说明](/sdk-dev/basics/params/)。 |
 | CMD\_SYNC | 13 | 有 | **上传个性化数据**    arg1表示上传的数据类型  data表示上传的数据内容   使用参考[用户个性化使用文档](/sdk-dev/features/personalization)。 |
-| CMD\_RESULT\_VALIDATION\_ACK | 20 | 无 | **结果确认**  收到云端结果5s内发送该指令，重置交互超时的计时。    关于交互超时的机制参看[AIUI配置](/sdk-dev/basics/params)中interact\_timeout的解释。   使用参考[延迟休眠](/sdk-dev/basics/data-sending)。 |
-| CMD\_CLEAN\_DIALOG\_HISTORY | 21 | 无 | **清空交互历史**   使用参考[清除历史](/sdk-dev/basics/data-sending)。 |
+| CMD\_RESULT\_VALIDATION\_ACK | 20 | 无 | **结果确认**  收到云端结果5s内发送该指令，重置交互超时的计时。    关于交互超时的机制参看[AIUI配置](/sdk-dev/basics/params/)中interact\_timeout的解释。   使用参考[延迟休眠](/sdk-dev/basics/data-sending/)。 |
+| CMD\_CLEAN\_DIALOG\_HISTORY | 21 | 无 | **清空交互历史**   使用参考[清除历史](/sdk-dev/basics/data-sending/)。 |
 | CMD\_START\_RECORD | 22 | 无 | **开始录制数据（暂只支持Android系统）** |
 | CMD\_STOP\_RECORD | 23 | 无 | **停止录制数据（暂只支持Android系统）** |
 | CMD\_QUERY\_SYNC\_STATUS | 24 | 有 | **查询数据同步状态**    arg1表示状态查询的类型  params包含查询条件   使用参考[查询打包状态](/sdk-dev/features/personalization)。 |
@@ -44,7 +44,7 @@ title: 消息事件说明
 |  |  |  |
 | --- | --- | --- |
 | eventType(事件类型) | 取值 | 说明 |
-| EVENT\_RESULT | 1 | **结果事件**    解析参考[结果解析](/sdk-dev/basics/callbacks)。 |
+| EVENT\_RESULT | 1 | **结果事件**    解析参考[结果解析](/sdk-dev/basics/callbacks/)。 |
 | EVENT\_ERROR | 2 | **出错事件**    arg1是错误码，info上错误描述信息。  错误码附录[错误码](/sdk-dev/error-codes)说明。 |
 | EVENT\_STATE | 3 | **服务状态事件**    详细见[SDK状态说明](/sdk-dev/basics/states)。 |
 | EVENT\_WAKEUP | 4 | **唤醒事件**    arg1字段取值：  0 （语音唤醒）  1 （发送CMD\_WAKEUP手动唤醒）。  info字段为唤醒结果JSON字符串。 |
