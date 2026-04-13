@@ -446,4 +446,4 @@ mAudioManager.stopBluetoothSco();
 
 - 技术支持邮箱：[aiui_support@iflytek.com](mailto:aiui_support@iflytek.com)
 - 商务合作邮箱：[msp_business@iflytek.com](mailto:msp_business@iflytek.com)
-- 开发者 QQ 交流群
+- 开发者 QQ 交流群：575396706、617903641

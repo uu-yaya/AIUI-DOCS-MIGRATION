@@ -2,6 +2,10 @@
 title: 小飞在家开源软件使用许可
 ---
 
+::: info 说明
+本文档列出了"小飞在家"产品中使用的开源软件及其许可证信息。开源许可证原文为英文，依据国际惯例保留原文以确保法律效力。如有疑问请联系 [aiui_support@iflytek.com](mailto:aiui_support@iflytek.com)。
+:::
+
 **Open source Disclaimer**
 
 The 小飞在家 includes certain open source software, which is governed by the terms and conditions of the applicable open source license, and you are bound by the terms and conditions of the applicable open source license in connection with your use and distribution of the open source software in this product. The open source software, the applicable open source licenses and other open source notices are identified below. You agree to comply with all such licenses and other notices. If you do not agree to such terms, you may not install, download, distribute or otherwise use the open source software. We provide the open source code and open source licenses on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, WITHOUT EVEN THE IMPLIED WARRANTY OF MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

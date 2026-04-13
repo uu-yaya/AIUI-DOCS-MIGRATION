@@ -18,7 +18,7 @@ description: 声音复刻资源的注册、查询和删除管理接口
 ### 请求地址
 
 ```text
-http[s]://aiui.xf-yun.com
+`http[s]://aiui.xf-yun.com`
 ```
 
 ### 接口鉴权

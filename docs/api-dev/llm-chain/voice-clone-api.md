@@ -33,7 +33,7 @@ title: 声音复刻 API
 
 ### 请求地址
 
-> http[s]://aiui.xf-yun.com
+> `http[s]://aiui.xf-yun.com`
 
 ### 接口鉴权
 

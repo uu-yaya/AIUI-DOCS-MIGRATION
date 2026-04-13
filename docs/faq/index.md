@@ -15,7 +15,6 @@ description: AIUI 平台常见问题与解决方案
 </div>
 <div class="card-grid-item">
 <a href="/faq/contact"><strong>联系方式</strong></a>
-<p>商务合作：19955108393、19955108395</p>
 </div>
 <div class="card-grid-item">
 <a href="/faq/dynamic-entity-faq"><strong>动态实体常见问题</strong></a>

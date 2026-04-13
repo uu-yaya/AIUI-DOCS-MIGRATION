@@ -96,7 +96,7 @@ api_key="$api_key",algorithm="hmac-sha256",headers="host date request-line",sign
   ```
     header="host: demo.example.com\ndate: Wed, 23 Aug 2023 06:45:26 GMT\nGET /api HTTP/1.1"
   ```
-- 当请求 url：http[s]://demo.example.com/api，请求类型为 DELETE ， 构建 header 为：
+- 当请求 url：`http[s]://demo.example.com/api，请求类型为` DELETE ， 构建 header 为：
 
   ```
     header="host: demo.example.com\ndate: Wed, 23 Aug 2023 06:45:26 GMT\nDELETE /api HTTP/1.1"

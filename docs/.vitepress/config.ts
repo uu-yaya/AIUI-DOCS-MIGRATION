@@ -5,13 +5,13 @@ export default defineConfig({
   title: 'AIUI 开发文档',
   description: '科大讯飞 AIUI 平台开发文档',
   lang: 'zh-CN',
+  base: '/AIUI-DOCS-MIGRATION/',
 
-  // docs/ 作为根目录，不需要额外 srcDir
   srcDir: '.',
   outDir: '../dist',
 
   themeConfig: {
-    logo: '/images/placeholder.svg',
+    logo: false,
     siteTitle: 'AIUI 开发文档',
 
     nav: [
@@ -47,9 +47,6 @@ export default defineConfig({
 
     sidebar,
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com' },
-    ],
 
     search: {
       provider: 'local',

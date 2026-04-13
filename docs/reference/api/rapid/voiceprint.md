@@ -35,7 +35,7 @@ description: 声纹识别相关的成员管理和声纹特征管理接口
 ### 请求地址
 
 ```text
-http[s]://aiui.xf-yun.com
+`http[s]://aiui.xf-yun.com`
 ```
 
 ### 接口鉴权
