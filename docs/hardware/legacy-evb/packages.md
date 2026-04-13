@@ -37,7 +37,7 @@ AIUI评估板中关键应用关系图如下所示：
 
 该目录下包含ControlService、ControlClient、AIUIProductDemo、UARTService等应用的源码工程，开发者可在此基础上开发出更多样化的产品。
 
-Demo工程下提供的AIUIDemo是为演示AIUI接口的基本调用方法，该Demo需要界面操作，安装在评估板或核心板中，可以使用TotalControl或vysor进行操作；AIUIDemo与AIUIProductDemo不能同时安装，二选一即可。AIUIDemo与ControlService也不能同时安装，原因参考[AIUI配置provider](/sdk-dev/basics/params)。
+Demo工程下提供的AIUIDemo是为演示AIUI接口的基本调用方法，该Demo需要界面操作，安装在评估板或核心板中，可以使用TotalControl或vysor进行操作；AIUIDemo与AIUIProductDemo不能同时安装，二选一即可。AIUIDemo与ControlService也不能同时安装，原因参考[AIUI配置provider](/sdk-dev/basics/params/)。
 
 UART工程下提供的UARTKit是Android平台下[AIUI串口协议](/hardware/legacy-evb/serial-sdk)的封装实现；UARTKitCtrDemo是上位机（Android平台）集成[AIUI串口协议](/hardware/legacy-evb/serial-sdk)的基本实现与调用方法演示程序，开发者可参考此代码实现上位机程序。
 
