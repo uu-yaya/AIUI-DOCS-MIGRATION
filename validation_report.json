@@ -1,0 +1,70 @@
+{
+  "total_files_scanned": 164,
+  "fixes": {
+    "fix1_broken_bold": {
+      "files": 7,
+      "fixes": 14
+    },
+    "fix2_missing_bracket": {
+      "files": 0,
+      "fixes": 0
+    },
+    "fix3_toc_blocks": {
+      "files": 2,
+      "fixes": 2
+    },
+    "fix6_extra_whitespace": {
+      "files": 7,
+      "blank_lines": 31,
+      "hr_removed": 0
+    },
+    "fix7_image_paths": {
+      "files": 14,
+      "fixes": 138
+    },
+    "fix8_heading_in_link": {
+      "files": 0,
+      "fixes": 0
+    },
+    "fix9_bare_link_index": {
+      "files": 8,
+      "fixes": 34
+    },
+    "fix10_bold_dashes": {
+      "files": 2,
+      "fixes": 10
+    },
+    "fix11_incomplete_pages": {
+      "count": 1,
+      "pages": [
+        {
+          "file": "custom-biz/skill-studio/development/create.md",
+          "char_count": 28
+        }
+      ]
+    }
+  },
+  "residual_fixes": {
+    "A_broken_links": {
+      "files": 1,
+      "fixes": 2
+    },
+    "B_decorative_symbols": {
+      "files": 23,
+      "fixes": 53
+    },
+    "C_null_titles": {
+      "files": 32,
+      "fixes": 119
+    },
+    "D_h1_to_h2": {
+      "files": 34,
+      "fixes": 176
+    }
+  },
+  "detail_link_fixes": {
+    "pattern_a": 162,
+    "pattern_b": 6,
+    "orphans": 0
+  }
+}
