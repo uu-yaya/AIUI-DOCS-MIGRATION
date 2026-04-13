@@ -50,7 +50,7 @@ last_updated: 2026-04-13
 3. 构建并测试技能
 4. 发布技能后，在应用中添加该技能
 
-自定义技能的完整开发指南请参阅 [技能工作室](/custom-biz/skill-studio/)。
+自定义技能的完整开发指南请参阅 [技能工作室](/custom-biz/skill-studio/overview)。
 
 ## 第三步：配置语音识别与合成
 
@@ -148,4 +148,4 @@ mAIUIAgent.sendMessage(writeMsg);
 - [AIUI 应用配置](/app-config/) — 详细了解应用的各项配置
 - [SDK 开发接入 — 传统语义链路](/sdk-dev/classic-chain/) — 完整的 SDK 开发文档
 - [API 开发接入 — 传统语义链路](/api-dev/classic-chain/) — 完整的 API 开发文档
-- [技能工作室](/custom-biz/skill-studio/) — 创建自定义技能
+- [技能工作室](/custom-biz/skill-studio/overview) — 创建自定义技能
