@@ -95,7 +95,7 @@ AIUI 提供两种合成方式：
 | AIUI 装机量 | 20 台 |
 | 唤醒（VTN）装机量 | 20 台 |
 
-如需提升授权额度，请 [联系我们](/platform-service/contact)。
+如需提升授权额度，请 [联系我们](/faq/contact)。
 
 ## 下一步
 
