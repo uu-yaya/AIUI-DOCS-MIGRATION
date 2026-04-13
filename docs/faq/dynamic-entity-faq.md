@@ -2,8 +2,6 @@
 title: 动态实体常见问题
 ---
 
-# 动态实体常见问题
-
 - 有没有动态实体的 Demo 以供参考？
 
   > 参考：<http://bbs.xfyun.cn/forum.php?mod=viewthread&tid=34992&extra=>

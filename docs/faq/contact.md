@@ -1,14 +1,49 @@
 ---
 title: 联系方式
+sidebar: false
+prev: false
+next: false
 ---
 
-商务合作：19955108393、19955108395
+<div class="contact-cards">
+<div class="contact-card">
+  <div class="contact-icon">📞</div>
+  <div class="contact-info">
+    <h3>商务合作</h3>
+    <p>19955108393</p>
+    <p>19955108395</p>
+  </div>
+</div>
 
-技术支持：
+<div class="contact-card">
+  <div class="contact-icon">📧</div>
+  <div class="contact-info">
+    <h3>技术支持</h3>
+    <p>邮箱：<a href="mailto:aiui_support@iflytek.com">aiui_support@iflytek.com</a></p>
+  </div>
+</div>
 
-- 邮箱：[aiui\_support@iflytek.com](mailto:aiui_support@iflytek.com)
-- 开发者QQ交流群：575396706、617903641
+<div class="contact-card">
+  <div class="contact-icon">👥</div>
+  <div class="contact-info">
+    <h3>开发者社群</h3>
+    <p>QQ 交流群：575396706、617903641</p>
+  </div>
+</div>
 
-提交工单：<https://aiui.xfyun.cn/ask/submit>
+<div class="contact-card">
+  <div class="contact-icon">📋</div>
+  <div class="contact-info">
+    <h3>提交工单</h3>
+    <p><a href="https://aiui.xfyun.cn/ask/submit">aiui.xfyun.cn/ask/submit</a></p>
+  </div>
+</div>
 
-论坛交流：<http://bbs.xfyun.cn/>
+<div class="contact-card">
+  <div class="contact-icon">💬</div>
+  <div class="contact-info">
+    <h3>论坛交流</h3>
+    <p><a href="http://bbs.xfyun.cn/">bbs.xfyun.cn</a></p>
+  </div>
+</div>
+</div>

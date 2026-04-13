@@ -2,21 +2,12 @@
 title: 传统语义链路接入
 ---
 
-✿
-
-## 传统语义链路接入
-
 了解语义链路的配置方法、数据使用及结果解析流程
 
-▼
 
-### 链路配置说明
+### [链路配置说明](/sdk-dev/classic-chain/config)
 
 详细介绍传统语义链路的搭建步骤、参数配置及环境要求。
-
-[查看详情](/sdk-dev/classic-chain/config)
-### 个性化数据使用
+### [个性化数据使用](/sdk-dev/classic-chain/personalization)
 
 说明如何收集、存储和应用个性化数据以优化语义理解效果。
-
-[查看详情](/sdk-dev/classic-chain/personalization)

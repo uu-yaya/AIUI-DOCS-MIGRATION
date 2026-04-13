@@ -2,23 +2,7 @@
 title: 技能后处理协议：标准请求
 ---
 
-**目录**
-
-1. 请求类型分类
-2. 请求类型说明
-    2.1. IntentRequest
-    2.1.1. 消息示例
-    2.1.2. 参数说明
-    2.1.2.1. slots 参数说明
-    2.2. LaunchRequest
-    2.2.1. 消息示例
-    2.2.2. 参数说明
-    2.3. SessionEndedRequest
-    2.4. TextRequest
-    2.4.1. 消息示例
-    2.4.2. 参数说明
-
-# 请求类型分类
+## 请求类型分类
 
 通过AIUI链路，标准请求request中包含经过AIUI解析后的用户请求有4类，其中 他们分为：
 
@@ -34,7 +18,7 @@ title: 技能后处理协议：标准请求
 
 标准请求是所有技能都需要实现的请求，这些请求中包含[请求协议\_2.1](/custom-biz/protocols/post-process-request-v21)中提到的所有字段：version, session, context, request。
 
-# 请求类型说明
+## 请求类型说明
 
 ## 2.1. IntentRequest
 

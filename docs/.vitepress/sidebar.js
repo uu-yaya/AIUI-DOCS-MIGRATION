@@ -321,58 +321,7 @@ export default {
       { text: "常见问题", link: "/faq/" },
       { text: "AIUI 常见问题", link: "/faq/aiui-faq" },
       { text: "评估板常见问题", link: "/faq/evb-faq" },
-      { text: "动态实体常见问题", link: "/faq/dynamic-entity-faq" },
-      { text: "联系方式", link: "/faq/contact" }
-      ],
-    },
-  ],
-  "/legal/": [
-    {
-      text: "服务条款",
-      collapsed: false,
-      items: [
-      { text: "概述", link: "/legal/" }
-      ],
-    },
-    {
-      text: "平台协议",
-      collapsed: false,
-      items: [
-      { text: "平台服务协议", link: "/legal/aiui-platform-tos" },
-      { text: "平台隐私政策", link: "/legal/aiui-platform-privacy" }
-      ],
-    },
-    {
-      text: "小飞在家",
-      collapsed: false,
-      items: [
-      { text: "小飞用户协议", link: "/legal/xiaofei-tos" },
-      { text: "小飞隐私政策", link: "/legal/xiaofei-privacy" },
-      { text: "开源许可", link: "/legal/xiaofei-oss-license" }
-      ],
-    },
-    {
-      text: "讯飞账号",
-      collapsed: false,
-      items: [
-      { text: "账号隐私政策", link: "/legal/xfyun-account-privacy" },
-      { text: "账号用户协议", link: "/legal/xfyun-account-tos" }
-      ],
-    },
-    {
-      text: "带屏音箱",
-      collapsed: false,
-      items: [
-      { text: "音箱用户协议", link: "/legal/xfyun-speaker-tos" },
-      { text: "音箱隐私政策", link: "/legal/xfyun-speaker-privacy" }
-      ],
-    },
-    {
-      text: "SDK 协议",
-      collapsed: false,
-      items: [
-      { text: "SDK 隐私政策", link: "/legal/aiui-sdk-privacy" },
-      { text: "SDK 合规说明", link: "/legal/aiui-sdk-compliance" }
+      { text: "动态实体常见问题", link: "/faq/dynamic-entity-faq" }
       ],
     },
   ],

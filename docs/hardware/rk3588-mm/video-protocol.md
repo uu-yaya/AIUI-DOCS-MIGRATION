@@ -2,7 +2,9 @@
 title: 视频传输协议
 ---
 
+::: info 概述
 上位机可通过socket与RK3588多模态盒子建立视频传输通道，可参照开发包中的[Android示例代码](https://www.yuque.com/iflyaiui/zzoolv/xk9rpv "Android示例代码")实现摄像头视频预览。
+:::
 
 ## 视频传输协议
 

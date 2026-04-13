@@ -342,11 +342,20 @@ def build_sidebar(entries: list[dict], url_map: dict[str, str]) -> dict:
     from collections import defaultdict, OrderedDict
     sections: dict[str, list] = defaultdict(list)
 
+    # "联系方式"放在顶部导航栏，不出现在 FAQ 侧边栏
+    # "法律条款"通过顶部导航 + index 页导航，不生成侧边栏
+    SIDEBAR_EXCLUDE = {'/faq/contact'}
+    SIDEBAR_SKIP_SECTIONS = {'legal'}
+
     for e in entries:
         vp_path = url_map[e["doc_id"]]
+        if vp_path in SIDEBAR_EXCLUDE:
+            continue
         # 推断 section（第一段路径）
         parts = vp_path.strip('/').split('/')
         section_key = parts[0]
+        if section_key in SIDEBAR_SKIP_SECTIONS:
+            continue
         sections[section_key].append({
             "text":    e["nav_title"],
             "link":    vp_path,

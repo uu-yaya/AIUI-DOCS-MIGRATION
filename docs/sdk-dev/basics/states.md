@@ -2,8 +2,7 @@
 title: SDK 状态说明
 ---
 
-AIUI SDK状态概述
-
+::: info 概述
 AIUI SDK有3种状态:
 
 **STATE\_IDLE：**未开启状态，此时只能进行start（开启服务）操作
@@ -11,6 +10,7 @@ AIUI SDK有3种状态:
 **STATE\_READY：**就绪状态，不处理数据，需要语音唤醒或者发送CMD\_WAKEUP手动唤醒
 
 **STATE\_WORKING：**工作状态，可以处理数据
+:::
 
 ## 状态转换说明
 

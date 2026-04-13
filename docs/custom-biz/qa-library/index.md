@@ -1,7 +1,18 @@
 ---
-title: 问答库开发
+title: 问答库
+description: AIUI 问答库开发指南
 ---
 
-[自定义问答](/custom-biz/qa-library/sentence-qa "自定义问答")
-[关键词问答](/custom-biz/qa-library/keyword-qa "关键词问答")
-[文档问答](/custom-biz/qa-library/document-qa "文档问答")
+::: info 概述
+问答库是技能工作室提供的轻量级问答配置能力，支持语句问答、关键词问答和文档问答三种模式。开发者无需编写代码，通过平台配置即可实现常见场景的问答交互。
+:::
+
+## 本节内容
+
+<div class="nav-cards">
+
+- **[文档问答](/custom-biz/qa-library/document-qa)** — 文档问答，是基于星火大模型知识库方案，高校检索文档信息，准确回答专业问题。支持开发者自定义知识点拆分逻辑、查看已拆分的知识点、编辑管理知识点。
+- **[关键词问答](/custom-biz/qa-library/keyword-qa)** — 关键词问答库，就是描述一段话中需要匹配的关键词信息。可以是单个词条，也可以是多个词条组合成的表达式，
+- **[语句问答](/custom-biz/qa-library/sentence-qa)** — 语句问答（Q&A）是语音技能的简单版。不同的是，语音问答中的每一个用户输入，系统回复是确定的（可能是一个或者多个），不存在过多的逻辑处理。
+
+</div>

@@ -64,3 +64,8 @@ config/            # 配置文件（术语表、URL 列表等）
 - 图片统一存放于 `docs/public/images/`，Markdown 中以 `/images/xxx.png` 形式引用
 - 脚本使用 Node.js（ESM）编写，运行环境 Node 18+
 - 配置文件使用 JSON 格式，UTF-8 编码
+
+## 设计规范
+
+所有 UI 样式、色彩、组件、布局相关的改动必须遵守 design.md 中的规范。
+修改样式前请先阅读 ./design.md。

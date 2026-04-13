@@ -3,12 +3,12 @@ title: 快速体验
 source_url: https://aiui-doc.xf-yun.com/project-1/doc-2/
 ---
 
-## 演示Demo
+## 演示 Demo
 
-[
-](https://aiui-file.xfyun.cn/media/demo.mp4)
-
----
+<video controls width="360" style="border-radius: 8px; margin-bottom: 16px; max-width: 100%; display: block; margin-left: auto; margin-right: auto;">
+  <source src="https://aiui-file.xfyun.cn/media/demo.mp4" type="video/mp4">
+  您的浏览器不支持视频播放，请<a href="https://aiui-file.xfyun.cn/media/demo.mp4">点击下载</a>观看。
+</video>
 
 ## 设计开发流程
 

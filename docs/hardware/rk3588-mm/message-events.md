@@ -2,9 +2,9 @@
 title: AIUI 类型消息事件
 ---
 
-消息事件概述
-
+::: info 概述
 多模态模组内置集成AIUI SDK，除了支持AIUI SDK的[通用消息](/sdk-dev/basics/events)控制指令外，还增加了部分多模态交互相关的控制指令:
+:::
 
 ## AIUI控制消息
 

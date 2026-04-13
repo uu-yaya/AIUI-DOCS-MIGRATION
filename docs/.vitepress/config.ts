@@ -2,17 +2,21 @@ import { defineConfig } from 'vitepress'
 import sidebar from './sidebar.js'
 
 export default defineConfig({
-  title: 'AIUI 开发文档',
-  description: '科大讯飞 AIUI 平台开发文档',
+  title: 'AIUI 文档',
+  description: '科大讯飞 AIUI 全链路人机交互平台开发文档',
   lang: 'zh-CN',
+  appearance: true,
 
-  // docs/ 作为根目录，不需要额外 srcDir
   srcDir: '.',
   outDir: '../dist',
 
+  head: [
+    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
+  ],
+
   themeConfig: {
-    logo: '/images/placeholder.svg',
-    siteTitle: 'AIUI 开发文档',
+    logo: '/logo.svg',
+    siteTitle: '文档中心',
 
     nav: [
       { text: '平台服务', link: '/platform-service/' },
@@ -27,13 +31,11 @@ export default defineConfig({
       { text: '自定义业务', link: '/custom-biz/' },
       { text: '硬件模组', link: '/hardware/' },
       { text: '常见问题', link: '/faq/' },
+      { text: '法律条款', link: '/legal/' },
+      { text: '联系方式', link: '/faq/contact' },
     ],
 
     sidebar,
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com' },
-    ],
 
     search: {
       provider: 'local',

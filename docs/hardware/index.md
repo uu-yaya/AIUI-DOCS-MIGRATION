@@ -1,11 +1,23 @@
 ---
 title: 硬件模组
+description: AIUI 配套硬件模组产品文档
 ---
 
-[RK3328 AIUI降噪板开发套件](/hardware/rk3328-nr/ "RK3328 AIUI降噪板开发套件")
-[RK3328 AIUI评估板开发套件](/hardware/rk3328-evb/ "RK3328 AIUI评估板开发套件")
-[AC7911 AIUI语音交互开发套件](/hardware/ac7911b/ "AC7911 AIUI语音交互开发套件")
-[RK3588 AIUI多模态开发套件](/hardware/rk3588-mm/ "RK3588 AIUI多模态开发套件")
-[ZG803 AIUI离线语音识别开发套件](/hardware/zg803/ "ZG803 AIUI离线语音识别开发套件")
-[AIUI USB声卡套件](/hardware/usb-audio/ "AIUI USB声卡套件")
-[AIUI评估板接入](/hardware/legacy-evb/ "AIUI评估板接入")
+::: info 概述
+AIUI 提供多种配套硬件模组，覆盖降噪板、评估板、多模态套件、离线语音模块和 USB 声卡等产品形态。每款硬件均附带产品白皮书、使用手册和开发指南，方便开发者快速完成硬件集成与调试。
+:::
+
+## 本节内容
+
+<div class="nav-cards">
+
+- **[AC7911B AIUI 语音开发套件](/hardware/ac7911b/)** — AC7911B AIUI语音开发套件快速体验：
+- **[（旧）AIUI 评估板接入](/hardware/legacy-evb/)** — AIUI的交互类似一个IO系统，I(Input)就是发送给AIUI的AIUIMessage， O(Output)就是AIUI抛出来的AIUIEvent。
+- **[RK3328 AIUI 评估板开发套件](/hardware/rk3328-evb/)** — AIUI评估板开发套件提供了多种集成方式，开发者可以根据自己的业务场景灵活选择。在后期量产时，请联系我们获取更完整的集成流程和技术支持。
+- **[RK3328 降噪板](/hardware/rk3328-nr/)** — RK3328降噪板全部开发资料（产品白皮书、规格书、使用手册、协议手册），
+- **[RK3588 AIUI 多模态开发套件](/hardware/rk3588-mm/)** — 上位机可通过网络与RK3588多模态盒子建立音频传输通道，可参照开发包中的Android示例代码实现。
+- **[RK3588S 通用多模态开发套件](/hardware/rk3588s-mm/)** — RK3588S 多模态套件开发资料（产品白皮书、使用手册、规格书），
+- **[USB 声卡套件](/hardware/usb-audio/)** — USB声卡套件开发资料（产品白皮书、使用指南），可以点击下载:
+- **[ZG803 离线语音识别套件](/hardware/zg803/)** — ZG803集成讯飞单麦离线识别算法，支持 3~5M 远场识别，支持唤醒词、离线识别命令词和本地回复语配置。
+
+</div>
