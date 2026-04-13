@@ -1,0 +1,1473 @@
+{
+  "version": "1.0",
+  "docs_root": "docs",
+  "entries": [
+    {
+      "doc_id": "doc-401",
+      "raw_path": "raw_docs/platform_service/doc-401.md",
+      "raw_exists": true,
+      "target_path": "docs/platform-service/index.md",
+      "title": "AIUI 平台服务",
+      "nav_title": "概述",
+      "sidebar_group": "AIUI 平台服务"
+    },
+    {
+      "doc_id": "doc-770",
+      "raw_path": "raw_docs/platform_service/doc-770.md",
+      "raw_exists": true,
+      "target_path": "docs/platform-service/overview.md",
+      "title": "AIUI 平台介绍",
+      "nav_title": "平台介绍",
+      "sidebar_group": "AIUI 平台服务"
+    },
+    {
+      "doc_id": "doc-769",
+      "raw_path": "raw_docs/platform_service/doc-769.md",
+      "raw_exists": true,
+      "target_path": "docs/platform-service/app-intro.md",
+      "title": "AIUI 应用介绍",
+      "nav_title": "应用介绍",
+      "sidebar_group": "AIUI 平台服务"
+    },
+    {
+      "doc_id": "doc-403",
+      "raw_path": "raw_docs/platform_service/doc-403.md",
+      "raw_exists": true,
+      "target_path": "docs/platform-service/service-chain.md",
+      "title": "AIUI 服务链路介绍",
+      "nav_title": "服务链路介绍",
+      "sidebar_group": "AIUI 平台服务"
+    },
+    {
+      "doc_id": "doc-402",
+      "raw_path": "raw_docs/platform_service/doc-402.md",
+      "raw_exists": true,
+      "target_path": "docs/platform-service/capabilities.md",
+      "title": "AIUI 平台能力概述",
+      "nav_title": "平台能力概述",
+      "sidebar_group": "AIUI 平台服务"
+    },
+    {
+      "doc_id": "doc-2",
+      "raw_path": "raw_docs/platform_service/doc-2.md",
+      "raw_exists": true,
+      "target_path": "docs/platform-service/quickstart.md",
+      "title": "快速体验",
+      "nav_title": "快速体验",
+      "sidebar_group": "AIUI 平台服务"
+    },
+    {
+      "doc_id": "doc-3",
+      "raw_path": "raw_docs/app_config/doc-3.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/index.md",
+      "title": "AIUI 应用配置",
+      "nav_title": "概述",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-4",
+      "raw_path": "raw_docs/app_config/doc-4.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/publish.md",
+      "title": "应用发布",
+      "nav_title": "应用发布",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-18",
+      "raw_path": "raw_docs/app_config/doc-18.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/semantic-lite-protocol.md",
+      "title": "语义精简协议介绍",
+      "nav_title": "语义精简协议",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-773",
+      "raw_path": "raw_docs/app_config/doc-773.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/basic-config.md",
+      "title": "基础配置",
+      "nav_title": "基础配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-774",
+      "raw_path": "raw_docs/app_config/doc-774.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/semantic-model.md",
+      "title": "语义模型配置",
+      "nav_title": "语义模型配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-775",
+      "raw_path": "raw_docs/app_config/doc-775.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/reply-role.md",
+      "title": "回复角色配置",
+      "nav_title": "回复角色配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-776",
+      "raw_path": "raw_docs/app_config/doc-776.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/asr-config.md",
+      "title": "语音识别配置",
+      "nav_title": "语音识别配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-90",
+      "raw_path": "raw_docs/app_config/doc-90.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/structured-semantic.md",
+      "title": "结构化语义配置",
+      "nav_title": "结构化语义配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-778",
+      "raw_path": "raw_docs/app_config/doc-778.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/spark-llm.md",
+      "title": "星火大模型配置",
+      "nav_title": "星火大模型配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-779",
+      "raw_path": "raw_docs/app_config/doc-779.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/tts-config.md",
+      "title": "语音合成配置",
+      "nav_title": "语音合成配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-5",
+      "raw_path": "raw_docs/app_config/doc-5.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/post-process.md",
+      "title": "应用后处理配置",
+      "nav_title": "应用后处理配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-590",
+      "raw_path": "raw_docs/app_config/doc-590.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/third-party-llm.md",
+      "title": "三方大模型配置",
+      "nav_title": "三方大模型配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-813",
+      "raw_path": "raw_docs/app_config/doc-813.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/full-duplex.md",
+      "title": "流畅全双工交互配置",
+      "nav_title": "全双工配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-819",
+      "raw_path": "raw_docs/app_config/doc-819.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/emotion-tags.md",
+      "title": "表情标签配置",
+      "nav_title": "表情标签配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-820",
+      "raw_path": "raw_docs/app_config/doc-820.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/long-memory.md",
+      "title": "长时记忆配置",
+      "nav_title": "长时记忆配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-821",
+      "raw_path": "raw_docs/app_config/doc-821.md",
+      "raw_exists": true,
+      "target_path": "docs/app-config/voiceprint.md",
+      "title": "声纹识别配置",
+      "nav_title": "声纹识别配置",
+      "sidebar_group": "AIUI 应用配置"
+    },
+    {
+      "doc_id": "doc-6",
+      "raw_path": "raw_docs/sdk_dev/doc-6.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/index.md",
+      "title": "AIUI SDK 开发",
+      "nav_title": "概述",
+      "sidebar_group": "SDK 开发"
+    },
+    {
+      "doc_id": "doc-7",
+      "raw_path": "raw_docs/sdk_dev/doc-7.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/quickstart.md",
+      "title": "AIUI SDK 接入流程",
+      "nav_title": "接入流程",
+      "sidebar_group": "SDK 开发"
+    },
+    {
+      "doc_id": "doc-11",
+      "raw_path": "raw_docs/sdk_dev/doc-11.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/index.md",
+      "title": "AIUI SDK 基础信息",
+      "nav_title": "基础信息",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-12",
+      "raw_path": "raw_docs/sdk_dev/doc-12.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/interfaces.md",
+      "title": "SDK 接口说明",
+      "nav_title": "接口说明",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-13",
+      "raw_path": "raw_docs/sdk_dev/doc-13.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/params.md",
+      "title": "参数配置说明",
+      "nav_title": "参数配置",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-14",
+      "raw_path": "raw_docs/sdk_dev/doc-14.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/events.md",
+      "title": "消息事件说明",
+      "nav_title": "消息事件",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-15",
+      "raw_path": "raw_docs/sdk_dev/doc-15.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/states.md",
+      "title": "SDK 状态说明",
+      "nav_title": "SDK 状态",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-21",
+      "raw_path": "raw_docs/sdk_dev/doc-21.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/data-sending.md",
+      "title": "数据发送方式",
+      "nav_title": "数据发送",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-16",
+      "raw_path": "raw_docs/sdk_dev/doc-16.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/callbacks.md",
+      "title": "回调解析说明",
+      "nav_title": "回调解析",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-781",
+      "raw_path": "raw_docs/sdk_dev/doc-781.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/basics/result-protocol.md",
+      "title": "交互结果协议说明",
+      "nav_title": "交互结果协议",
+      "sidebar_group": "SDK 基础"
+    },
+    {
+      "doc_id": "doc-20",
+      "raw_path": "raw_docs/sdk_dev/doc-20.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/index.md",
+      "title": "AIUI SDK 基础能力",
+      "nav_title": "基础能力",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-28",
+      "raw_path": "raw_docs/sdk_dev/doc-28.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/streaming-asr.md",
+      "title": "流式识别",
+      "nav_title": "流式识别",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-26",
+      "raw_path": "raw_docs/sdk_dev/doc-26.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/offline-asr.md",
+      "title": "离线识别",
+      "nav_title": "离线识别",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-22",
+      "raw_path": "raw_docs/sdk_dev/doc-22.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/wakeword.md",
+      "title": "语音唤醒",
+      "nav_title": "语音唤醒",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-23",
+      "raw_path": "raw_docs/sdk_dev/doc-23.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/tts.md",
+      "title": "语音合成",
+      "nav_title": "语音合成",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-24",
+      "raw_path": "raw_docs/sdk_dev/doc-24.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/personalization.md",
+      "title": "用户个性化",
+      "nav_title": "用户个性化",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-25",
+      "raw_path": "raw_docs/sdk_dev/doc-25.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/features/custom-params.md",
+      "title": "自定义参数",
+      "nav_title": "自定义参数",
+      "sidebar_group": "SDK 能力"
+    },
+    {
+      "doc_id": "doc-790",
+      "raw_path": "raw_docs/sdk_dev/doc-790.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/classic-chain/index.md",
+      "title": "传统语义链路接入",
+      "nav_title": "传统语义链路",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-793",
+      "raw_path": "raw_docs/sdk_dev/doc-793.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/classic-chain/config.md",
+      "title": "传统链路配置说明",
+      "nav_title": "链路配置",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-794",
+      "raw_path": "raw_docs/sdk_dev/doc-794.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/classic-chain/personalization.md",
+      "title": "传统链路个性化数据使用",
+      "nav_title": "个性化数据",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-791",
+      "raw_path": "raw_docs/sdk_dev/doc-791.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/llm-chain/index.md",
+      "title": "通用大模型链路接入",
+      "nav_title": "通用大模型链路",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-795",
+      "raw_path": "raw_docs/sdk_dev/doc-795.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/llm-chain/config.md",
+      "title": "通用大模型链路配置说明",
+      "nav_title": "链路配置",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-796",
+      "raw_path": "raw_docs/sdk_dev/doc-796.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/llm-chain/personalization.md",
+      "title": "通用大模型链路个性化数据使用",
+      "nav_title": "个性化数据",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-407",
+      "raw_path": "raw_docs/sdk_dev/doc-407.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/llm-chain/ultra-tts.md",
+      "title": "超拟人合成",
+      "nav_title": "超拟人合成",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-797",
+      "raw_path": "raw_docs/sdk_dev/doc-797.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/llm-chain/voice-clone.md",
+      "title": "声音复刻",
+      "nav_title": "声音复刻",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-792",
+      "raw_path": "raw_docs/sdk_dev/doc-792.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/ultra-chain/index.md",
+      "title": "极速超拟人链路接入",
+      "nav_title": "极速超拟人链路",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-798",
+      "raw_path": "raw_docs/sdk_dev/doc-798.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/ultra-chain/config.md",
+      "title": "极速超拟人链路配置说明",
+      "nav_title": "链路配置",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-799",
+      "raw_path": "raw_docs/sdk_dev/doc-799.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/ultra-chain/personalization.md",
+      "title": "极速超拟人链路个性化数据使用",
+      "nav_title": "个性化数据",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-800",
+      "raw_path": "raw_docs/sdk_dev/doc-800.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/ultra-chain/streaming-tts.md",
+      "title": "流式合成",
+      "nav_title": "流式合成",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-801",
+      "raw_path": "raw_docs/sdk_dev/doc-801.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/ultra-chain/voice-clone.md",
+      "title": "声音复刻",
+      "nav_title": "声音复刻",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-802",
+      "raw_path": "raw_docs/sdk_dev/doc-802.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/ultra-chain/rtos.md",
+      "title": "RTOS 系统 SDK 接入",
+      "nav_title": "RTOS 接入",
+      "sidebar_group": "SDK 链路接入"
+    },
+    {
+      "doc_id": "doc-42",
+      "raw_path": "raw_docs/sdk_dev/doc-42.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/error-codes.md",
+      "title": "错误码列表",
+      "nav_title": "错误码",
+      "sidebar_group": "SDK 开发"
+    },
+    {
+      "doc_id": "doc-93",
+      "raw_path": "raw_docs/sdk_dev/doc-93.md",
+      "raw_exists": true,
+      "target_path": "docs/sdk-dev/voice-list.md",
+      "title": "发音人列表",
+      "nav_title": "发音人列表",
+      "sidebar_group": "SDK 开发"
+    },
+    {
+      "doc_id": "doc-179",
+      "raw_path": "raw_docs/api_dev/doc-179.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/index.md",
+      "title": "AIUI API 开发",
+      "nav_title": "概述",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-782",
+      "raw_path": "raw_docs/api_dev/doc-782.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/classic-chain/index.md",
+      "title": "传统语义链路",
+      "nav_title": "传统语义链路",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-17",
+      "raw_path": "raw_docs/api_dev/doc-17.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/classic-chain/interact-api.md",
+      "title": "交互 API",
+      "nav_title": "交互 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-785",
+      "raw_path": "raw_docs/api_dev/doc-785.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/classic-chain/personalization-api.md",
+      "title": "用户个性化 API",
+      "nav_title": "个性化 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-374",
+      "raw_path": "raw_docs/api_dev/doc-374.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/classic-chain/tts-usage.md",
+      "title": "合成能力使用",
+      "nav_title": "合成能力",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-783",
+      "raw_path": "raw_docs/api_dev/doc-783.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/llm-chain/index.md",
+      "title": "通用大模型链路",
+      "nav_title": "通用大模型链路",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-404",
+      "raw_path": "raw_docs/api_dev/doc-404.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/llm-chain/auth.md",
+      "title": "服务鉴权",
+      "nav_title": "服务鉴权",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-181",
+      "raw_path": "raw_docs/api_dev/doc-181.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/llm-chain/interact-api.md",
+      "title": "交互 API",
+      "nav_title": "交互 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-424",
+      "raw_path": "raw_docs/api_dev/doc-424.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/llm-chain/personalization-api.md",
+      "title": "用户个性化 API",
+      "nav_title": "个性化 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-787",
+      "raw_path": "raw_docs/api_dev/doc-787.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/llm-chain/voice-clone-api.md",
+      "title": "声音复刻 API",
+      "nav_title": "声音复刻 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-789",
+      "raw_path": "raw_docs/api_dev/doc-789.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/llm-chain/tts-usage.md",
+      "title": "合成能力使用",
+      "nav_title": "合成能力",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-784",
+      "raw_path": "raw_docs/api_dev/doc-784.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/index.md",
+      "title": "极速超拟人链路",
+      "nav_title": "极速超拟人链路",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-405",
+      "raw_path": "raw_docs/api_dev/doc-405.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/auth.md",
+      "title": "服务鉴权",
+      "nav_title": "服务鉴权",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-584",
+      "raw_path": "raw_docs/api_dev/doc-584.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/interact-api.md",
+      "title": "交互 API",
+      "nav_title": "交互 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-786",
+      "raw_path": "raw_docs/api_dev/doc-786.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/personalization-api.md",
+      "title": "用户个性化 API",
+      "nav_title": "个性化 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-413",
+      "raw_path": "raw_docs/api_dev/doc-413.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/voice-clone-api.md",
+      "title": "声音复刻 API",
+      "nav_title": "声音复刻 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-788",
+      "raw_path": "raw_docs/api_dev/doc-788.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/tts-usage.md",
+      "title": "合成能力使用",
+      "nav_title": "合成能力",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-814",
+      "raw_path": "raw_docs/api_dev/doc-814.md",
+      "raw_exists": true,
+      "target_path": "docs/api-dev/ultra-chain/voiceprint-api.md",
+      "title": "声纹管理 API",
+      "nav_title": "声纹管理 API",
+      "sidebar_group": "API 开发"
+    },
+    {
+      "doc_id": "doc-43",
+      "raw_path": "raw_docs/custom_biz/doc-43.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/index.md",
+      "title": "自定义业务",
+      "nav_title": "概述",
+      "sidebar_group": "自定义业务"
+    },
+    {
+      "doc_id": "doc-44",
+      "raw_path": "raw_docs/custom_biz/doc-44.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/overview.md",
+      "title": "技能工作室概述",
+      "nav_title": "技能工作室概述",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-45",
+      "raw_path": "raw_docs/custom_biz/doc-45.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/glossary.md",
+      "title": "名词解析",
+      "nav_title": "名词解析",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-46",
+      "raw_path": "raw_docs/custom_biz/doc-46.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/skills.md",
+      "title": "技能",
+      "nav_title": "技能",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-47",
+      "raw_path": "raw_docs/custom_biz/doc-47.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/intents.md",
+      "title": "意图和语料",
+      "nav_title": "意图和语料",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-48",
+      "raw_path": "raw_docs/custom_biz/doc-48.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/entities.md",
+      "title": "实体",
+      "nav_title": "实体",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-49",
+      "raw_path": "raw_docs/custom_biz/doc-49.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/dynamic-entities.md",
+      "title": "动态实体",
+      "nav_title": "动态实体",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-50",
+      "raw_path": "raw_docs/custom_biz/doc-50.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/fuzzy-match.md",
+      "title": "模糊匹配",
+      "nav_title": "模糊匹配",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-51",
+      "raw_path": "raw_docs/custom_biz/doc-51.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/slot-filling.md",
+      "title": "填槽对话",
+      "nav_title": "填槽对话",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-52",
+      "raw_path": "raw_docs/custom_biz/doc-52.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/design-guide.md",
+      "title": "技能设计规范",
+      "nav_title": "技能设计规范",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-53",
+      "raw_path": "raw_docs/custom_biz/doc-53.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/voice-design-guide.md",
+      "title": "语音技能设计规范",
+      "nav_title": "语音技能设计规范",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-54",
+      "raw_path": "raw_docs/custom_biz/doc-54.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/review-guide.md",
+      "title": "开放技能接入审核规范",
+      "nav_title": "审核规范",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-55",
+      "raw_path": "raw_docs/custom_biz/doc-55.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/icon-guide.md",
+      "title": "开放技能图标图片规范",
+      "nav_title": "图标规范",
+      "sidebar_group": "技能工作室"
+    },
+    {
+      "doc_id": "doc-56",
+      "raw_path": "raw_docs/custom_biz/doc-56.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/index.md",
+      "title": "技能开发",
+      "nav_title": "技能开发",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-57",
+      "raw_path": "raw_docs/custom_biz/doc-57.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/create.md",
+      "title": "创建技能和意图",
+      "nav_title": "创建技能",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-58",
+      "raw_path": "raw_docs/custom_biz/doc-58.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/intent-config.md",
+      "title": "意图配置",
+      "nav_title": "意图配置",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-61",
+      "raw_path": "raw_docs/custom_biz/doc-61.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/testing.md",
+      "title": "技能测试",
+      "nav_title": "技能测试",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-60",
+      "raw_path": "raw_docs/custom_biz/doc-60.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/publish.md",
+      "title": "技能发布",
+      "nav_title": "技能发布",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-62",
+      "raw_path": "raw_docs/custom_biz/doc-62.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/post-process.md",
+      "title": "技能后处理",
+      "nav_title": "技能后处理",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-59",
+      "raw_path": "raw_docs/custom_biz/doc-59.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/development/import-export.md",
+      "title": "技能导入导出",
+      "nav_title": "导入导出",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-64",
+      "raw_path": "raw_docs/custom_biz/doc-64.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/cloud-function-api-v21.md",
+      "title": "云函数 API v2.1",
+      "nav_title": "云函数 API v2.1",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-63",
+      "raw_path": "raw_docs/custom_biz/doc-63.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/cloud-function-api-v20.md",
+      "title": "云函数 API v2.0",
+      "nav_title": "云函数 API v2.0",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-423",
+      "raw_path": "raw_docs/custom_biz/doc-423.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/agent-dev.md",
+      "title": "智能体开发",
+      "nav_title": "智能体开发",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-589",
+      "raw_path": "raw_docs/custom_biz/doc-589.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/skill-studio/agent-integration.md",
+      "title": "智能体对接",
+      "nav_title": "智能体对接",
+      "sidebar_group": "技能开发"
+    },
+    {
+      "doc_id": "doc-65",
+      "raw_path": "raw_docs/custom_biz/doc-65.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/qa-library/index.md",
+      "title": "问答库开发",
+      "nav_title": "问答库开发",
+      "sidebar_group": "问答库"
+    },
+    {
+      "doc_id": "doc-66",
+      "raw_path": "raw_docs/custom_biz/doc-66.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/qa-library/sentence-qa.md",
+      "title": "语句问答",
+      "nav_title": "语句问答",
+      "sidebar_group": "问答库"
+    },
+    {
+      "doc_id": "doc-67",
+      "raw_path": "raw_docs/custom_biz/doc-67.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/qa-library/keyword-qa.md",
+      "title": "关键词问答",
+      "nav_title": "关键词问答",
+      "sidebar_group": "问答库"
+    },
+    {
+      "doc_id": "doc-411",
+      "raw_path": "raw_docs/custom_biz/doc-411.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/qa-library/document-qa.md",
+      "title": "文档问答",
+      "nav_title": "文档问答",
+      "sidebar_group": "问答库"
+    },
+    {
+      "doc_id": "doc-68",
+      "raw_path": "raw_docs/custom_biz/doc-68.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/device-persona.md",
+      "title": "设备人设开发",
+      "nav_title": "设备人设",
+      "sidebar_group": "自定义业务"
+    },
+    {
+      "doc_id": "doc-69",
+      "raw_path": "raw_docs/custom_biz/doc-69.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/index.md",
+      "title": "技能协议",
+      "nav_title": "技能协议",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-70",
+      "raw_path": "raw_docs/custom_biz/doc-70.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/semantic-protocol.md",
+      "title": "语义协议：重要字段和通用字段",
+      "nav_title": "语义协议",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-71",
+      "raw_path": "raw_docs/custom_biz/doc-71.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/post-process-request.md",
+      "title": "技能后处理协议：标准请求",
+      "nav_title": "标准请求",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-72",
+      "raw_path": "raw_docs/custom_biz/doc-72.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/post-process-verify.md",
+      "title": "技能后处理协议：请求校验",
+      "nav_title": "请求校验",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-73",
+      "raw_path": "raw_docs/custom_biz/doc-73.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/post-process-request-v21.md",
+      "title": "技能后处理协议：Request v2.1",
+      "nav_title": "Request v2.1",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-74",
+      "raw_path": "raw_docs/custom_biz/doc-74.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/post-process-response-v21.md",
+      "title": "技能后处理协议：Response v2.1",
+      "nav_title": "Response v2.1",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-75",
+      "raw_path": "raw_docs/custom_biz/doc-75.md",
+      "raw_exists": true,
+      "target_path": "docs/custom-biz/protocols/resource-limits.md",
+      "title": "技能资源限制",
+      "nav_title": "资源限制",
+      "sidebar_group": "技能协议"
+    },
+    {
+      "doc_id": "doc-38",
+      "raw_path": "raw_docs/hardware/doc-38.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/index.md",
+      "title": "硬件模组",
+      "nav_title": "概述",
+      "sidebar_group": "硬件模组"
+    },
+    {
+      "doc_id": "doc-40",
+      "raw_path": "raw_docs/hardware/doc-40.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/usb-audio/index.md",
+      "title": "USB 声卡套件",
+      "nav_title": "USB 声卡套件",
+      "sidebar_group": "USB 声卡套件"
+    },
+    {
+      "doc_id": "doc-164",
+      "raw_path": "raw_docs/hardware/doc-164.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/usb-audio/whitepaper.md",
+      "title": "USB 声卡产品白皮书",
+      "nav_title": "产品白皮书",
+      "sidebar_group": "USB 声卡套件"
+    },
+    {
+      "doc_id": "doc-165",
+      "raw_path": "raw_docs/hardware/doc-165.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/usb-audio/guide.md",
+      "title": "USB 声卡使用指南",
+      "nav_title": "使用指南",
+      "sidebar_group": "USB 声卡套件"
+    },
+    {
+      "doc_id": "doc-105",
+      "raw_path": "raw_docs/hardware/doc-105.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-nr/index.md",
+      "title": "RK3328 降噪板",
+      "nav_title": "RK3328 降噪板",
+      "sidebar_group": "RK3328 降噪板"
+    },
+    {
+      "doc_id": "doc-104",
+      "raw_path": "raw_docs/hardware/doc-104.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-nr/whitepaper.md",
+      "title": "RK3328 降噪板白皮书",
+      "nav_title": "产品白皮书",
+      "sidebar_group": "RK3328 降噪板"
+    },
+    {
+      "doc_id": "doc-106",
+      "raw_path": "raw_docs/hardware/doc-106.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-nr/manual.md",
+      "title": "RK3328 降噪板使用手册",
+      "nav_title": "使用手册",
+      "sidebar_group": "RK3328 降噪板"
+    },
+    {
+      "doc_id": "doc-107",
+      "raw_path": "raw_docs/hardware/doc-107.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-nr/specs.md",
+      "title": "RK3328 降噪板规格书",
+      "nav_title": "规格书",
+      "sidebar_group": "RK3328 降噪板"
+    },
+    {
+      "doc_id": "doc-108",
+      "raw_path": "raw_docs/hardware/doc-108.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-nr/protocol.md",
+      "title": "RK3328 降噪板协议手册",
+      "nav_title": "协议手册",
+      "sidebar_group": "RK3328 降噪板"
+    },
+    {
+      "doc_id": "doc-97",
+      "raw_path": "raw_docs/hardware/doc-97.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-evb/index.md",
+      "title": "RK3328 AIUI 评估板开发套件",
+      "nav_title": "RK3328 评估板",
+      "sidebar_group": "RK3328 评估板"
+    },
+    {
+      "doc_id": "doc-184",
+      "raw_path": "raw_docs/hardware/doc-184.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-evb/whitepaper.md",
+      "title": "RK3328 评估板白皮书",
+      "nav_title": "产品白皮书",
+      "sidebar_group": "RK3328 评估板"
+    },
+    {
+      "doc_id": "doc-185",
+      "raw_path": "raw_docs/hardware/doc-185.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-evb/manual.md",
+      "title": "RK3328 评估板使用手册",
+      "nav_title": "使用手册",
+      "sidebar_group": "RK3328 评估板"
+    },
+    {
+      "doc_id": "doc-186",
+      "raw_path": "raw_docs/hardware/doc-186.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-evb/specs.md",
+      "title": "RK3328 评估板规格书",
+      "nav_title": "规格书",
+      "sidebar_group": "RK3328 评估板"
+    },
+    {
+      "doc_id": "doc-187",
+      "raw_path": "raw_docs/hardware/doc-187.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3328-evb/dev-guide.md",
+      "title": "RK3328 评估板开发手册",
+      "nav_title": "开发手册",
+      "sidebar_group": "RK3328 评估板"
+    },
+    {
+      "doc_id": "doc-815",
+      "raw_path": "raw_docs/hardware/doc-815.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588s-mm/index.md",
+      "title": "RK3588S 通用多模态开发套件",
+      "nav_title": "RK3588S 多模态套件",
+      "sidebar_group": "RK3588S 多模态"
+    },
+    {
+      "doc_id": "doc-816",
+      "raw_path": "raw_docs/hardware/doc-816.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588s-mm/whitepaper.md",
+      "title": "RK3588S 多模态套件白皮书",
+      "nav_title": "产品白皮书",
+      "sidebar_group": "RK3588S 多模态"
+    },
+    {
+      "doc_id": "doc-817",
+      "raw_path": "raw_docs/hardware/doc-817.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588s-mm/manual.md",
+      "title": "RK3588S 多模态套件使用手册",
+      "nav_title": "使用手册",
+      "sidebar_group": "RK3588S 多模态"
+    },
+    {
+      "doc_id": "doc-829",
+      "raw_path": "raw_docs/hardware/doc-829.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588s-mm/specs.md",
+      "title": "RK3588S 多模态主板规格书",
+      "nav_title": "规格书",
+      "sidebar_group": "RK3588S 多模态"
+    },
+    {
+      "doc_id": "doc-357",
+      "raw_path": "raw_docs/hardware/doc-357.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/index.md",
+      "title": "RK3588 AIUI 多模态开发套件",
+      "nav_title": "RK3588 多模态套件",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-361",
+      "raw_path": "raw_docs/hardware/doc-361.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/specs.md",
+      "title": "RK3588 一体机多模态产品规格书",
+      "nav_title": "产品规格书",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-362",
+      "raw_path": "raw_docs/hardware/doc-362.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/manual.md",
+      "title": "RK3588 多模态套件使用手册",
+      "nav_title": "使用手册",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-360",
+      "raw_path": "raw_docs/hardware/doc-360.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/video-protocol.md",
+      "title": "视频传输协议",
+      "nav_title": "视频传输协议",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-367",
+      "raw_path": "raw_docs/hardware/doc-367.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/semantic-protocol.md",
+      "title": "识别语义传输协议",
+      "nav_title": "语义传输协议",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-392",
+      "raw_path": "raw_docs/hardware/doc-392.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/audio-protocol.md",
+      "title": "音频传输协议",
+      "nav_title": "音频传输协议",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-822",
+      "raw_path": "raw_docs/hardware/doc-822.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/rk3588-mm/message-events.md",
+      "title": "AIUI 类型消息事件",
+      "nav_title": "消息事件",
+      "sidebar_group": "RK3588 多模态"
+    },
+    {
+      "doc_id": "doc-41",
+      "raw_path": "raw_docs/hardware/doc-41.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/ac7911b/index.md",
+      "title": "AC7911B AIUI 语音开发套件",
+      "nav_title": "AC7911B 套件",
+      "sidebar_group": "AC7911B"
+    },
+    {
+      "doc_id": "doc-109",
+      "raw_path": "raw_docs/hardware/doc-109.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/ac7911b/whitepaper.md",
+      "title": "AC7911B 产品白皮书",
+      "nav_title": "产品白皮书",
+      "sidebar_group": "AC7911B"
+    },
+    {
+      "doc_id": "doc-110",
+      "raw_path": "raw_docs/hardware/doc-110.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/ac7911b/quickstart.md",
+      "title": "AC7911B 快速体验指南",
+      "nav_title": "快速体验",
+      "sidebar_group": "AC7911B"
+    },
+    {
+      "doc_id": "doc-99",
+      "raw_path": "raw_docs/hardware/doc-99.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/zg803/index.md",
+      "title": "ZG803 离线语音识别套件",
+      "nav_title": "ZG803 套件",
+      "sidebar_group": "ZG803"
+    },
+    {
+      "doc_id": "doc-172",
+      "raw_path": "raw_docs/hardware/doc-172.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/zg803/whitepaper.md",
+      "title": "ZG803 产品白皮书",
+      "nav_title": "产品白皮书",
+      "sidebar_group": "ZG803"
+    },
+    {
+      "doc_id": "doc-19",
+      "raw_path": "raw_docs/hardware/doc-19.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/index.md",
+      "title": "（旧）AIUI 评估板接入",
+      "nav_title": "旧版评估板",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-32",
+      "raw_path": "raw_docs/hardware/doc-32.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/integration.md",
+      "title": "集成方式",
+      "nav_title": "集成方式",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-33",
+      "raw_path": "raw_docs/hardware/doc-33.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/packages.md",
+      "title": "软件包说明",
+      "nav_title": "软件包说明",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-34",
+      "raw_path": "raw_docs/hardware/doc-34.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/aiui-service-kit.md",
+      "title": "AIUIServiceKitSDK",
+      "nav_title": "AIUIServiceKit",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-35",
+      "raw_path": "raw_docs/hardware/doc-35.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/serial-sdk.md",
+      "title": "串口 SDK",
+      "nav_title": "串口 SDK",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-36",
+      "raw_path": "raw_docs/hardware/doc-36.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/config.md",
+      "title": "评估板参数配置",
+      "nav_title": "参数配置",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-37",
+      "raw_path": "raw_docs/hardware/doc-37.md",
+      "raw_exists": true,
+      "target_path": "docs/hardware/legacy-evb/debug-upgrade.md",
+      "title": "调试升级",
+      "nav_title": "调试升级",
+      "sidebar_group": "旧版评估板"
+    },
+    {
+      "doc_id": "doc-79",
+      "raw_path": "raw_docs/faq/doc-79.md",
+      "raw_exists": true,
+      "target_path": "docs/faq/index.md",
+      "title": "常见问题处理",
+      "nav_title": "常见问题",
+      "sidebar_group": "常见问题"
+    },
+    {
+      "doc_id": "doc-80",
+      "raw_path": "raw_docs/faq/doc-80.md",
+      "raw_exists": true,
+      "target_path": "docs/faq/aiui-faq.md",
+      "title": "AIUI 常见问题",
+      "nav_title": "AIUI 常见问题",
+      "sidebar_group": "常见问题"
+    },
+    {
+      "doc_id": "doc-81",
+      "raw_path": "raw_docs/faq/doc-81.md",
+      "raw_exists": true,
+      "target_path": "docs/faq/evb-faq.md",
+      "title": "评估板常见问题",
+      "nav_title": "评估板常见问题",
+      "sidebar_group": "常见问题"
+    },
+    {
+      "doc_id": "doc-82",
+      "raw_path": "raw_docs/faq/doc-82.md",
+      "raw_exists": true,
+      "target_path": "docs/faq/dynamic-entity-faq.md",
+      "title": "动态实体常见问题",
+      "nav_title": "动态实体常见问题",
+      "sidebar_group": "常见问题"
+    },
+    {
+      "doc_id": "doc-83",
+      "raw_path": "raw_docs/faq/doc-83.md",
+      "raw_exists": true,
+      "target_path": "docs/faq/contact.md",
+      "title": "联系方式",
+      "nav_title": "联系方式",
+      "sidebar_group": "常见问题"
+    },
+    {
+      "doc_id": "doc-84",
+      "raw_path": "raw_docs/legal/doc-84.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/index.md",
+      "title": "服务条款",
+      "nav_title": "概述",
+      "sidebar_group": "服务条款"
+    },
+    {
+      "doc_id": "doc-85",
+      "raw_path": "raw_docs/legal/doc-85.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/aiui-platform-tos.md",
+      "title": "AIUI 开放平台服务协议",
+      "nav_title": "平台服务协议",
+      "sidebar_group": "平台协议"
+    },
+    {
+      "doc_id": "doc-86",
+      "raw_path": "raw_docs/legal/doc-86.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/aiui-platform-privacy.md",
+      "title": "AIUI 开放平台隐私政策",
+      "nav_title": "平台隐私政策",
+      "sidebar_group": "平台协议"
+    },
+    {
+      "doc_id": "doc-88",
+      "raw_path": "raw_docs/legal/doc-88.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xiaofei-tos.md",
+      "title": "小飞在家用户协议",
+      "nav_title": "小飞用户协议",
+      "sidebar_group": "小飞在家"
+    },
+    {
+      "doc_id": "doc-89",
+      "raw_path": "raw_docs/legal/doc-89.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xiaofei-privacy.md",
+      "title": "小飞在家隐私政策",
+      "nav_title": "小飞隐私政策",
+      "sidebar_group": "小飞在家"
+    },
+    {
+      "doc_id": "doc-410",
+      "raw_path": "raw_docs/legal/doc-410.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xiaofei-oss-license.md",
+      "title": "小飞在家开源软件使用许可",
+      "nav_title": "开源许可",
+      "sidebar_group": "小飞在家"
+    },
+    {
+      "doc_id": "doc-91",
+      "raw_path": "raw_docs/legal/doc-91.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xfyun-account-privacy.md",
+      "title": "讯飞账号隐私政策",
+      "nav_title": "账号隐私政策",
+      "sidebar_group": "讯飞账号"
+    },
+    {
+      "doc_id": "doc-92",
+      "raw_path": "raw_docs/legal/doc-92.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xfyun-account-tos.md",
+      "title": "讯飞账号用户协议",
+      "nav_title": "账号用户协议",
+      "sidebar_group": "讯飞账号"
+    },
+    {
+      "doc_id": "doc-94",
+      "raw_path": "raw_docs/legal/doc-94.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xfyun-speaker-tos.md",
+      "title": "讯飞带屏音箱用户协议",
+      "nav_title": "音箱用户协议",
+      "sidebar_group": "带屏音箱"
+    },
+    {
+      "doc_id": "doc-95",
+      "raw_path": "raw_docs/legal/doc-95.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/xfyun-speaker-privacy.md",
+      "title": "讯飞带屏音箱隐私政策",
+      "nav_title": "音箱隐私政策",
+      "sidebar_group": "带屏音箱"
+    },
+    {
+      "doc_id": "doc-191",
+      "raw_path": "raw_docs/legal/doc-191.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/aiui-sdk-privacy.md",
+      "title": "AIUI SDK 隐私政策",
+      "nav_title": "SDK 隐私政策",
+      "sidebar_group": "SDK 协议"
+    },
+    {
+      "doc_id": "doc-192",
+      "raw_path": "raw_docs/legal/doc-192.md",
+      "raw_exists": true,
+      "target_path": "docs/legal/aiui-sdk-compliance.md",
+      "title": "AIUI SDK 合规使用说明",
+      "nav_title": "SDK 合规说明",
+      "sidebar_group": "SDK 协议"
+    }
+  ]
+}

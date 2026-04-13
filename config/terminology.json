@@ -1,0 +1,18 @@
+{
+  "mappings": [
+    { "from": "AlUI", "to": "AIUI", "note": "常见错别字" },
+    { "from": "appid", "to": "AppID", "caseSensitive": false },
+    { "from": "appkey", "to": "APIKey", "caseSensitive": false },
+    { "from": "apisecret", "to": "APISecret", "caseSensitive": false },
+    { "from": "websocket", "to": "WebSocket", "caseSensitive": false },
+    { "from": "Websocket", "to": "WebSocket" },
+    { "from": "sdk", "to": "SDK", "caseSensitive": false },
+    { "from": "api", "to": "API", "caseSensitive": false },
+    { "from": "tts", "to": "TTS（语音合成）", "caseSensitive": false },
+    { "from": "iat", "to": "IAT（语音识别）", "caseSensitive": false },
+    { "from": "nlp", "to": "NLP（语义理解）", "caseSensitive": false },
+    { "from": "vad", "to": "VAD（端点检测）", "caseSensitive": false },
+    { "from": "continues", "to": "Continuous（全双工）", "caseSensitive": false },
+    { "from": "oneshot", "to": "Oneshot（单轮交互）", "caseSensitive": false }
+  ]
+}

@@ -1,0 +1,79 @@
+---
+title: AIUI 平台介绍
+---
+
+## 平台简介
+
+AIUI是科大讯飞2015年推出的自然语言理解为核心的全链路人机交互平台，平台汇聚了**大模型、降噪算法、声音、图像、数字虚拟人、硬件模组**等人机交互全链路软硬件核心能力，可以快速的让AI硬件接入大模型语音交互，让设备听得清、能理解、会思考、懂执行。AIUI是大模型时代下重要的语音入口，不断探索人机交互的新范式，赋能新一代AI硬件！
+
+目前AIUI平台已经整合的行业方案有:儿童玩具、儿童教育、语音点歌、智能投影、智能鼠标、多语种AI透明屏、移动数字人、大屏调度、服务机器人、营销机器人、智慧轨道交通。
+
+### 儿童玩具
+
+情感陪伴、心智启蒙
+
+[查看详情](https://aiui.xfyun.cn/solution/child-toys?chan=AIUI&way=menu)
+### 儿童教育
+
+有料、有趣
+
+[查看详情](https://aiui.xfyun.cn/solution/child-education?chan=AIUI&way=menu)
+### 语音点歌
+
+免唤醒点播
+
+[查看详情](https://aiui.xfyun.cn/solution/ktv?chan=AIUI&way=menu)
+### 智能投影
+
+定向打磨影视领域
+
+[查看详情](https://aiui.xfyun.cn/solution/reflection?chan=AIUI&way=menu)
+### 智能鼠标
+
+提升办公效率
+
+[查看详情](https://aiui.xfyun.cn/solution/mouse?chan=AIUI&way=menu)
+### 多语种AI透明屏
+
+服务窗口跨语言沟通
+
+[查看详情](https://aiui.xfyun.cn/solution/transparent-screen?chan=AIUI&way=menu)
+
+### 移动数字人
+
+智能导览
+
+[查看详情](https://aiui.xfyun.cn/solution/mobile-digital-person?chan=AIUI&way=menu)
+### 大屏调度
+
+复杂页面一语直达
+
+[查看详情](https://aiui.xfyun.cn/solution/screen?chan=AIUI&way=menu)
+### 服务机器人
+
+多模态交互更拟人
+
+[查看详情](https://aiui.xfyun.cn/solution/robot?chan=AIUI&way=menu)
+### 营销机器人
+
+大模型零售
+
+[查看详情](https://aiui.xfyun.cn/solution/smart-retail?chan=AIUI&way=menu)
+### 智能轨道交通
+
+适用公共高噪环境
+
+[查看详情](https://aiui.xfyun.cn/solution/subway?chan=AIUI&way=menu)
+## >>>
+
+## AIUI介绍
+
+AIUI 是一套人机交互解决方案，整合了**语音唤醒、语音识别、大模型语义、语音合成、内容信源**等能力，具备**多模态唤醒、虚拟人驱动、多语种识别、超拟人合成、声音复刻**等特性。
+
+对外提供SDK、WebSocket、硬件模组等多种集成方式，广泛应用于手机、电视、机器人、扫读笔、语音购票等智能硬件设备上。接入集成简单，硬件模组开箱即用。
+
+**- SDK：Android、iOS、Windows、Linux
+
+- API：WebSocket API**
+
+![示例图片](/images/76f8ee2715f9.png)

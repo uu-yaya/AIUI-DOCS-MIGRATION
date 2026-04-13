@@ -1,0 +1,1469 @@
+{
+  "doc-401": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-401/",
+    "category": "platform_service",
+    "title": "1. AIUI平台服务",
+    "file": "raw_docs/platform_service/doc-401.md",
+    "size_bytes": 926,
+    "crawled_at": "2026-04-12T17:36:33.995288Z"
+  },
+  "doc-770": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-770/",
+    "category": "platform_service",
+    "title": "1.1 AIUI平台介绍",
+    "file": "raw_docs/platform_service/doc-770.md",
+    "size_bytes": 2655,
+    "crawled_at": "2026-04-12T17:36:37.191997Z"
+  },
+  "doc-769": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-769/",
+    "category": "platform_service",
+    "title": "1.2 AIUI应用介绍",
+    "file": "raw_docs/platform_service/doc-769.md",
+    "size_bytes": 5202,
+    "crawled_at": "2026-04-12T17:36:40.457236Z"
+  },
+  "doc-403": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-403/",
+    "category": "platform_service",
+    "title": "1.3 AIUI服务链路介绍",
+    "file": "raw_docs/platform_service/doc-403.md",
+    "size_bytes": 6288,
+    "crawled_at": "2026-04-12T17:36:43.567818Z"
+  },
+  "doc-402": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-402/",
+    "category": "platform_service",
+    "title": "1.4 AIUI平台能力概述",
+    "file": "raw_docs/platform_service/doc-402.md",
+    "size_bytes": 5930,
+    "crawled_at": "2026-04-12T17:36:46.868709Z"
+  },
+  "doc-2": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-2/",
+    "category": "platform_service",
+    "title": "1.5 快速体验",
+    "file": "raw_docs/platform_service/doc-2.md",
+    "size_bytes": 33690,
+    "crawled_at": "2026-04-12T17:36:51.273006Z"
+  },
+  "doc-3": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-3/",
+    "category": "app_config",
+    "title": "2. AIUI应用配置",
+    "file": "raw_docs/app_config/doc-3.md",
+    "size_bytes": 3149,
+    "crawled_at": "2026-04-12T17:36:54.283491Z"
+  },
+  "doc-4": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-4/",
+    "category": "app_config",
+    "title": "2.1 应用发布",
+    "file": "raw_docs/app_config/doc-4.md",
+    "size_bytes": 2683,
+    "crawled_at": "2026-04-12T17:36:57.478680Z"
+  },
+  "doc-18": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-18/",
+    "category": "app_config",
+    "title": "2.2 语义精简协议介绍",
+    "file": "raw_docs/app_config/doc-18.md",
+    "size_bytes": 5488,
+    "crawled_at": "2026-04-12T17:37:00.446403Z"
+  },
+  "doc-773": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-773/",
+    "category": "app_config",
+    "title": "2.3 基础配置",
+    "file": "raw_docs/app_config/doc-773.md",
+    "size_bytes": 2245,
+    "crawled_at": "2026-04-12T17:37:03.419999Z"
+  },
+  "doc-774": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-774/",
+    "category": "app_config",
+    "title": "2.4 语义模型配置",
+    "file": "raw_docs/app_config/doc-774.md",
+    "size_bytes": 6365,
+    "crawled_at": "2026-04-12T17:37:06.649709Z"
+  },
+  "doc-775": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-775/",
+    "category": "app_config",
+    "title": "2.5 回复角色配置",
+    "file": "raw_docs/app_config/doc-775.md",
+    "size_bytes": 3186,
+    "crawled_at": "2026-04-12T17:37:10.065665Z"
+  },
+  "doc-776": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-776/",
+    "category": "app_config",
+    "title": "2.6 语音识别配置",
+    "file": "raw_docs/app_config/doc-776.md",
+    "size_bytes": 3036,
+    "crawled_at": "2026-04-12T17:37:13.031768Z"
+  },
+  "doc-90": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-90/",
+    "category": "app_config",
+    "title": "2.7 结构化语义配置",
+    "file": "raw_docs/app_config/doc-90.md",
+    "size_bytes": 3604,
+    "crawled_at": "2026-04-12T17:37:16.181409Z"
+  },
+  "doc-778": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-778/",
+    "category": "app_config",
+    "title": "2.8 星火大模型配置",
+    "file": "raw_docs/app_config/doc-778.md",
+    "size_bytes": 4327,
+    "crawled_at": "2026-04-12T17:37:19.272929Z"
+  },
+  "doc-779": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-779/",
+    "category": "app_config",
+    "title": "2.9 语音合成配置",
+    "file": "raw_docs/app_config/doc-779.md",
+    "size_bytes": 2614,
+    "crawled_at": "2026-04-12T17:37:22.220380Z"
+  },
+  "doc-5": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-5/",
+    "category": "app_config",
+    "title": "2.10 应用后处理配置",
+    "file": "raw_docs/app_config/doc-5.md",
+    "size_bytes": 7801,
+    "crawled_at": "2026-04-12T17:37:25.275167Z"
+  },
+  "doc-590": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-590/",
+    "category": "app_config",
+    "title": "2.11 三方大模型配置",
+    "file": "raw_docs/app_config/doc-590.md",
+    "size_bytes": 2656,
+    "crawled_at": "2026-04-12T17:37:28.811644Z"
+  },
+  "doc-813": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-813/",
+    "category": "app_config",
+    "title": "2.12 流畅全双工交互配置",
+    "file": "raw_docs/app_config/doc-813.md",
+    "size_bytes": 2061,
+    "crawled_at": "2026-04-12T17:37:31.743847Z"
+  },
+  "doc-819": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-819/",
+    "category": "app_config",
+    "title": "2.13 表情标签配置",
+    "file": "raw_docs/app_config/doc-819.md",
+    "size_bytes": 2915,
+    "crawled_at": "2026-04-12T17:37:35.418758Z"
+  },
+  "doc-820": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-820/",
+    "category": "app_config",
+    "title": "2.14 长时记忆配置",
+    "file": "raw_docs/app_config/doc-820.md",
+    "size_bytes": 3274,
+    "crawled_at": "2026-04-12T17:37:38.349235Z"
+  },
+  "doc-821": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-821/",
+    "category": "app_config",
+    "title": "2.15 声纹识别配置",
+    "file": "raw_docs/app_config/doc-821.md",
+    "size_bytes": 2332,
+    "crawled_at": "2026-04-12T17:37:41.281198Z"
+  },
+  "doc-6": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-6/",
+    "category": "sdk_dev",
+    "title": "3. AIUI SDK开发",
+    "file": "raw_docs/sdk_dev/doc-6.md",
+    "size_bytes": 1574,
+    "crawled_at": "2026-04-12T17:37:44.246358Z"
+  },
+  "doc-7": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-7/",
+    "category": "sdk_dev",
+    "title": "3.1 AIUI SDK接入流程",
+    "file": "raw_docs/sdk_dev/doc-7.md",
+    "size_bytes": 31344,
+    "crawled_at": "2026-04-12T17:37:47.554757Z"
+  },
+  "doc-11": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-11/",
+    "category": "sdk_dev",
+    "title": "3.2 AIUI SDK基础信息",
+    "file": "raw_docs/sdk_dev/doc-11.md",
+    "size_bytes": 1253,
+    "crawled_at": "2026-04-12T17:37:50.460107Z"
+  },
+  "doc-12": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-12/",
+    "category": "sdk_dev",
+    "title": "3.2.1 SDK接口说明",
+    "file": "raw_docs/sdk_dev/doc-12.md",
+    "size_bytes": 10975,
+    "crawled_at": "2026-04-12T17:37:53.275218Z"
+  },
+  "doc-13": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-13/",
+    "category": "sdk_dev",
+    "title": "3.2.2 参数配置说明",
+    "file": "raw_docs/sdk_dev/doc-13.md",
+    "size_bytes": 13846,
+    "crawled_at": "2026-04-12T17:37:56.190115Z"
+  },
+  "doc-14": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-14/",
+    "category": "sdk_dev",
+    "title": "3.2.3 消息事件说明",
+    "file": "raw_docs/sdk_dev/doc-14.md",
+    "size_bytes": 5437,
+    "crawled_at": "2026-04-12T17:37:59.020782Z"
+  },
+  "doc-15": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-15/",
+    "category": "sdk_dev",
+    "title": "3.2.4 SDK状态说明",
+    "file": "raw_docs/sdk_dev/doc-15.md",
+    "size_bytes": 5352,
+    "crawled_at": "2026-04-12T17:38:01.989056Z"
+  },
+  "doc-21": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-21/",
+    "category": "sdk_dev",
+    "title": "3.2.5 数据发送方式",
+    "file": "raw_docs/sdk_dev/doc-21.md",
+    "size_bytes": 5082,
+    "crawled_at": "2026-04-12T17:38:05.171810Z"
+  },
+  "doc-16": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-16/",
+    "category": "sdk_dev",
+    "title": "3.2.6 回调解析说明",
+    "file": "raw_docs/sdk_dev/doc-16.md",
+    "size_bytes": 17803,
+    "crawled_at": "2026-04-12T17:38:08.071603Z"
+  },
+  "doc-781": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-781/",
+    "category": "sdk_dev",
+    "title": "3.2.7 交互结果协议说明",
+    "file": "raw_docs/sdk_dev/doc-781.md",
+    "size_bytes": 68621,
+    "crawled_at": "2026-04-12T17:38:11.047416Z"
+  },
+  "doc-20": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-20/",
+    "category": "sdk_dev",
+    "title": "3.3 AIUI SDK基础能力",
+    "file": "raw_docs/sdk_dev/doc-20.md",
+    "size_bytes": 1114,
+    "crawled_at": "2026-04-12T17:38:13.982696Z"
+  },
+  "doc-28": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-28/",
+    "category": "sdk_dev",
+    "title": "3.3.1 流式识别",
+    "file": "raw_docs/sdk_dev/doc-28.md",
+    "size_bytes": 5982,
+    "crawled_at": "2026-04-12T17:38:16.953544Z"
+  },
+  "doc-26": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-26/",
+    "category": "sdk_dev",
+    "title": "3.3.2 离线识别",
+    "file": "raw_docs/sdk_dev/doc-26.md",
+    "size_bytes": 15490,
+    "crawled_at": "2026-04-12T17:38:19.915255Z"
+  },
+  "doc-22": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-22/",
+    "category": "sdk_dev",
+    "title": "3.3.3 语音唤醒",
+    "file": "raw_docs/sdk_dev/doc-22.md",
+    "size_bytes": 5668,
+    "crawled_at": "2026-04-12T17:38:22.922234Z"
+  },
+  "doc-23": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-23/",
+    "category": "sdk_dev",
+    "title": "3.3.4 语音合成",
+    "file": "raw_docs/sdk_dev/doc-23.md",
+    "size_bytes": 11347,
+    "crawled_at": "2026-04-12T17:38:26.049531Z"
+  },
+  "doc-24": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-24/",
+    "category": "sdk_dev",
+    "title": "3.3.5 用户个性化",
+    "file": "raw_docs/sdk_dev/doc-24.md",
+    "size_bytes": 10623,
+    "crawled_at": "2026-04-12T17:38:29.091309Z"
+  },
+  "doc-25": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-25/",
+    "category": "sdk_dev",
+    "title": "3.3.6 自定义参数",
+    "file": "raw_docs/sdk_dev/doc-25.md",
+    "size_bytes": 2871,
+    "crawled_at": "2026-04-12T17:38:32.083573Z"
+  },
+  "doc-790": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-790/",
+    "category": "sdk_dev",
+    "title": "3.4 传统语义链路接入",
+    "file": "raw_docs/sdk_dev/doc-790.md",
+    "size_bytes": 526,
+    "crawled_at": "2026-04-12T17:38:34.884277Z"
+  },
+  "doc-793": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-793/",
+    "category": "sdk_dev",
+    "title": "3.4.1 链路配置说明",
+    "file": "raw_docs/sdk_dev/doc-793.md",
+    "size_bytes": 2263,
+    "crawled_at": "2026-04-12T17:38:37.982125Z"
+  },
+  "doc-794": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-794/",
+    "category": "sdk_dev",
+    "title": "3.4.2 个性化数据使用",
+    "file": "raw_docs/sdk_dev/doc-794.md",
+    "size_bytes": 9998,
+    "crawled_at": "2026-04-12T17:38:40.940183Z"
+  },
+  "doc-791": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-791/",
+    "category": "sdk_dev",
+    "title": "3.5 通用大模型链路接入",
+    "file": "raw_docs/sdk_dev/doc-791.md",
+    "size_bytes": 896,
+    "crawled_at": "2026-04-12T17:38:43.804697Z"
+  },
+  "doc-795": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-795/",
+    "category": "sdk_dev",
+    "title": "3.5.1 链路配置说明",
+    "file": "raw_docs/sdk_dev/doc-795.md",
+    "size_bytes": 2248,
+    "crawled_at": "2026-04-12T17:38:46.793580Z"
+  },
+  "doc-796": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-796/",
+    "category": "sdk_dev",
+    "title": "3.5.2 个性化数据使用",
+    "file": "raw_docs/sdk_dev/doc-796.md",
+    "size_bytes": 378,
+    "crawled_at": "2026-04-12T17:38:49.649255Z"
+  },
+  "doc-407": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-407/",
+    "category": "sdk_dev",
+    "title": "3.5.3 超拟人合成",
+    "file": "raw_docs/sdk_dev/doc-407.md",
+    "size_bytes": 3915,
+    "crawled_at": "2026-04-12T17:38:52.569186Z"
+  },
+  "doc-797": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-797/",
+    "category": "sdk_dev",
+    "title": "3.5.4 声音复刻",
+    "file": "raw_docs/sdk_dev/doc-797.md",
+    "size_bytes": 10260,
+    "crawled_at": "2026-04-12T17:38:55.536651Z"
+  },
+  "doc-792": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-792/",
+    "category": "sdk_dev",
+    "title": "3.6 极速超拟人链路接入",
+    "file": "raw_docs/sdk_dev/doc-792.md",
+    "size_bytes": 951,
+    "crawled_at": "2026-04-12T17:38:58.425685Z"
+  },
+  "doc-798": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-798/",
+    "category": "sdk_dev",
+    "title": "3.6.1 链路配置说明",
+    "file": "raw_docs/sdk_dev/doc-798.md",
+    "size_bytes": 2412,
+    "crawled_at": "2026-04-12T17:39:01.354527Z"
+  },
+  "doc-799": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-799/",
+    "category": "sdk_dev",
+    "title": "3.6.2 个性化数据使用",
+    "file": "raw_docs/sdk_dev/doc-799.md",
+    "size_bytes": 13142,
+    "crawled_at": "2026-04-12T17:39:04.324344Z"
+  },
+  "doc-800": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-800/",
+    "category": "sdk_dev",
+    "title": "3.6.3 流式合成",
+    "file": "raw_docs/sdk_dev/doc-800.md",
+    "size_bytes": 6413,
+    "crawled_at": "2026-04-12T17:39:07.149197Z"
+  },
+  "doc-801": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-801/",
+    "category": "sdk_dev",
+    "title": "3.6.4 声音复刻",
+    "file": "raw_docs/sdk_dev/doc-801.md",
+    "size_bytes": 10461,
+    "crawled_at": "2026-04-12T17:39:10.194569Z"
+  },
+  "doc-802": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-802/",
+    "category": "sdk_dev",
+    "title": "3.6.5 RTOS系统SDK接入",
+    "file": "raw_docs/sdk_dev/doc-802.md",
+    "size_bytes": 9584,
+    "crawled_at": "2026-04-12T17:39:13.189020Z"
+  },
+  "doc-42": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-42/",
+    "category": "sdk_dev",
+    "title": "3.7 错误码列表",
+    "file": "raw_docs/sdk_dev/doc-42.md",
+    "size_bytes": 20116,
+    "crawled_at": "2026-04-12T17:39:16.050129Z"
+  },
+  "doc-93": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-93/",
+    "category": "sdk_dev",
+    "title": "3.8 发音人列表",
+    "file": "raw_docs/sdk_dev/doc-93.md",
+    "size_bytes": 7986,
+    "crawled_at": "2026-04-12T17:39:18.927732Z"
+  },
+  "doc-179": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-179/",
+    "category": "api_dev",
+    "title": "4. AIUI API开发",
+    "file": "raw_docs/api_dev/doc-179.md",
+    "size_bytes": 2554,
+    "crawled_at": "2026-04-12T17:39:22.618652Z"
+  },
+  "doc-782": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-782/",
+    "category": "api_dev",
+    "title": "4.1 传统语义链路",
+    "file": "raw_docs/api_dev/doc-782.md",
+    "size_bytes": 711,
+    "crawled_at": "2026-04-12T17:39:25.406870Z"
+  },
+  "doc-17": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-17/",
+    "category": "api_dev",
+    "title": "4.1.1 交互API",
+    "file": "raw_docs/api_dev/doc-17.md",
+    "size_bytes": 20061,
+    "crawled_at": "2026-04-12T17:39:28.297135Z"
+  },
+  "doc-785": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-785/",
+    "category": "api_dev",
+    "title": "4.1.2 用户个性化API",
+    "file": "raw_docs/api_dev/doc-785.md",
+    "size_bytes": 7963,
+    "crawled_at": "2026-04-12T17:39:31.145975Z"
+  },
+  "doc-374": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-374/",
+    "category": "api_dev",
+    "title": "4.1.3 合成能力使用",
+    "file": "raw_docs/api_dev/doc-374.md",
+    "size_bytes": 5763,
+    "crawled_at": "2026-04-12T17:39:34.080687Z"
+  },
+  "doc-783": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-783/",
+    "category": "api_dev",
+    "title": "4.2 通用大模型链路",
+    "file": "raw_docs/api_dev/doc-783.md",
+    "size_bytes": 1033,
+    "crawled_at": "2026-04-12T17:39:37.141405Z"
+  },
+  "doc-404": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-404/",
+    "category": "api_dev",
+    "title": "4.2.1 服务鉴权",
+    "file": "raw_docs/api_dev/doc-404.md",
+    "size_bytes": 5817,
+    "crawled_at": "2026-04-12T17:39:40.717316Z"
+  },
+  "doc-181": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-181/",
+    "category": "api_dev",
+    "title": "4.2.2 交互API",
+    "file": "raw_docs/api_dev/doc-181.md",
+    "size_bytes": 25857,
+    "crawled_at": "2026-04-12T17:39:43.624993Z"
+  },
+  "doc-424": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-424/",
+    "category": "api_dev",
+    "title": "4.2.3 用户个性化API",
+    "file": "raw_docs/api_dev/doc-424.md",
+    "size_bytes": 8687,
+    "crawled_at": "2026-04-12T17:39:46.466905Z"
+  },
+  "doc-787": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-787/",
+    "category": "api_dev",
+    "title": "4.2.4 声音复刻API",
+    "file": "raw_docs/api_dev/doc-787.md",
+    "size_bytes": 6906,
+    "crawled_at": "2026-04-12T17:39:49.326579Z"
+  },
+  "doc-789": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-789/",
+    "category": "api_dev",
+    "title": "4.2.5 合成能力使用",
+    "file": "raw_docs/api_dev/doc-789.md",
+    "size_bytes": 13389,
+    "crawled_at": "2026-04-12T17:39:52.265505Z"
+  },
+  "doc-784": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-784/",
+    "category": "api_dev",
+    "title": "4.3 极速超拟人链路",
+    "file": "raw_docs/api_dev/doc-784.md",
+    "size_bytes": 1033,
+    "crawled_at": "2026-04-12T17:39:55.105750Z"
+  },
+  "doc-405": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-405/",
+    "category": "api_dev",
+    "title": "4.3.1 服务鉴权",
+    "file": "raw_docs/api_dev/doc-405.md",
+    "size_bytes": 5808,
+    "crawled_at": "2026-04-12T17:39:57.912800Z"
+  },
+  "doc-584": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-584/",
+    "category": "api_dev",
+    "title": "4.3.2 交互API",
+    "file": "raw_docs/api_dev/doc-584.md",
+    "size_bytes": 29134,
+    "crawled_at": "2026-04-12T17:40:00.886940Z"
+  },
+  "doc-786": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-786/",
+    "category": "api_dev",
+    "title": "4.3.3 用户个性化API",
+    "file": "raw_docs/api_dev/doc-786.md",
+    "size_bytes": 8687,
+    "crawled_at": "2026-04-12T17:40:03.699493Z"
+  },
+  "doc-413": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-413/",
+    "category": "api_dev",
+    "title": "4.3.4 声音复刻API",
+    "file": "raw_docs/api_dev/doc-413.md",
+    "size_bytes": 7005,
+    "crawled_at": "2026-04-12T17:40:06.742567Z"
+  },
+  "doc-788": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-788/",
+    "category": "api_dev",
+    "title": "4.3.5 合成能力使用",
+    "file": "raw_docs/api_dev/doc-788.md",
+    "size_bytes": 23776,
+    "crawled_at": "2026-04-12T17:40:09.858249Z"
+  },
+  "doc-814": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-814/",
+    "category": "api_dev",
+    "title": "4.3.6 声纹管理API",
+    "file": "raw_docs/api_dev/doc-814.md",
+    "size_bytes": 20880,
+    "crawled_at": "2026-04-12T17:40:12.937921Z"
+  },
+  "doc-43": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-43/",
+    "category": "custom_biz",
+    "title": "5. 自定义业务",
+    "file": "raw_docs/custom_biz/doc-43.md",
+    "size_bytes": 94,
+    "crawled_at": "2026-04-12T17:40:15.876893Z"
+  },
+  "doc-44": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-44/",
+    "category": "custom_biz",
+    "title": "技能工作室概述",
+    "file": "raw_docs/custom_biz/doc-44.md",
+    "size_bytes": 3623,
+    "crawled_at": "2026-04-12T17:40:18.884581Z"
+  },
+  "doc-45": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-45/",
+    "category": "custom_biz",
+    "title": "名词解析",
+    "file": "raw_docs/custom_biz/doc-45.md",
+    "size_bytes": 1155,
+    "crawled_at": "2026-04-12T17:40:21.818949Z"
+  },
+  "doc-46": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-46/",
+    "category": "custom_biz",
+    "title": "技能",
+    "file": "raw_docs/custom_biz/doc-46.md",
+    "size_bytes": 4602,
+    "crawled_at": "2026-04-12T17:40:24.744951Z"
+  },
+  "doc-47": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-47/",
+    "category": "custom_biz",
+    "title": "意图和语料",
+    "file": "raw_docs/custom_biz/doc-47.md",
+    "size_bytes": 3635,
+    "crawled_at": "2026-04-12T17:40:27.996440Z"
+  },
+  "doc-48": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-48/",
+    "category": "custom_biz",
+    "title": "实体",
+    "file": "raw_docs/custom_biz/doc-48.md",
+    "size_bytes": 3742,
+    "crawled_at": "2026-04-12T17:40:31.295166Z"
+  },
+  "doc-49": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-49/",
+    "category": "custom_biz",
+    "title": "动态实体",
+    "file": "raw_docs/custom_biz/doc-49.md",
+    "size_bytes": 25368,
+    "crawled_at": "2026-04-12T17:40:34.513357Z"
+  },
+  "doc-50": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-50/",
+    "category": "custom_biz",
+    "title": "模糊匹配",
+    "file": "raw_docs/custom_biz/doc-50.md",
+    "size_bytes": 1208,
+    "crawled_at": "2026-04-12T17:40:37.611983Z"
+  },
+  "doc-51": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-51/",
+    "category": "custom_biz",
+    "title": "填槽对话",
+    "file": "raw_docs/custom_biz/doc-51.md",
+    "size_bytes": 6767,
+    "crawled_at": "2026-04-12T17:40:40.608618Z"
+  },
+  "doc-52": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-52/",
+    "category": "custom_biz",
+    "title": "技能设计规范",
+    "file": "raw_docs/custom_biz/doc-52.md",
+    "size_bytes": 396,
+    "crawled_at": "2026-04-12T17:40:43.375256Z"
+  },
+  "doc-53": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-53/",
+    "category": "custom_biz",
+    "title": "语音技能设计规范",
+    "file": "raw_docs/custom_biz/doc-53.md",
+    "size_bytes": 11058,
+    "crawled_at": "2026-04-12T17:40:46.190681Z"
+  },
+  "doc-54": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-54/",
+    "category": "custom_biz",
+    "title": "开放技能接入审核规范",
+    "file": "raw_docs/custom_biz/doc-54.md",
+    "size_bytes": 2738,
+    "crawled_at": "2026-04-12T17:40:48.968361Z"
+  },
+  "doc-55": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-55/",
+    "category": "custom_biz",
+    "title": "开放技能图标图片规范",
+    "file": "raw_docs/custom_biz/doc-55.md",
+    "size_bytes": 758,
+    "crawled_at": "2026-04-12T17:40:51.990110Z"
+  },
+  "doc-56": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-56/",
+    "category": "custom_biz",
+    "title": "技能开发",
+    "file": "raw_docs/custom_biz/doc-56.md",
+    "size_bytes": 725,
+    "crawled_at": "2026-04-12T17:40:54.722602Z"
+  },
+  "doc-57": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-57/",
+    "category": "custom_biz",
+    "title": "创建技能和意图",
+    "file": "raw_docs/custom_biz/doc-57.md",
+    "size_bytes": 387,
+    "crawled_at": "2026-04-12T17:40:57.569971Z"
+  },
+  "doc-58": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-58/",
+    "category": "custom_biz",
+    "title": "意图配置",
+    "file": "raw_docs/custom_biz/doc-58.md",
+    "size_bytes": 5075,
+    "crawled_at": "2026-04-12T17:41:00.732747Z"
+  },
+  "doc-61": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-61/",
+    "category": "custom_biz",
+    "title": "技能测试",
+    "file": "raw_docs/custom_biz/doc-61.md",
+    "size_bytes": 1524,
+    "crawled_at": "2026-04-12T17:41:03.867543Z"
+  },
+  "doc-60": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-60/",
+    "category": "custom_biz",
+    "title": "技能发布",
+    "file": "raw_docs/custom_biz/doc-60.md",
+    "size_bytes": 1180,
+    "crawled_at": "2026-04-12T17:41:06.783076Z"
+  },
+  "doc-62": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-62/",
+    "category": "custom_biz",
+    "title": "技能后处理",
+    "file": "raw_docs/custom_biz/doc-62.md",
+    "size_bytes": 6275,
+    "crawled_at": "2026-04-12T17:41:10.127489Z"
+  },
+  "doc-59": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-59/",
+    "category": "custom_biz",
+    "title": "技能导入导出",
+    "file": "raw_docs/custom_biz/doc-59.md",
+    "size_bytes": 7612,
+    "crawled_at": "2026-04-12T17:41:12.972962Z"
+  },
+  "doc-64": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-64/",
+    "category": "custom_biz",
+    "title": "云函数APIv2.1",
+    "file": "raw_docs/custom_biz/doc-64.md",
+    "size_bytes": 20845,
+    "crawled_at": "2026-04-12T17:41:15.930041Z"
+  },
+  "doc-63": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-63/",
+    "category": "custom_biz",
+    "title": "云函数APIv2.0",
+    "file": "raw_docs/custom_biz/doc-63.md",
+    "size_bytes": 9277,
+    "crawled_at": "2026-04-12T17:41:18.775907Z"
+  },
+  "doc-423": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-423/",
+    "category": "custom_biz",
+    "title": "智能体开发",
+    "file": "raw_docs/custom_biz/doc-423.md",
+    "size_bytes": 2676,
+    "crawled_at": "2026-04-12T17:41:22.179682Z"
+  },
+  "doc-589": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-589/",
+    "category": "custom_biz",
+    "title": "智能体对接",
+    "file": "raw_docs/custom_biz/doc-589.md",
+    "size_bytes": 8509,
+    "crawled_at": "2026-04-12T17:41:25.674530Z"
+  },
+  "doc-65": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-65/",
+    "category": "custom_biz",
+    "title": "问答库开发",
+    "file": "raw_docs/custom_biz/doc-65.md",
+    "size_bytes": 334,
+    "crawled_at": "2026-04-12T17:41:28.571683Z"
+  },
+  "doc-66": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-66/",
+    "category": "custom_biz",
+    "title": "语句问答",
+    "file": "raw_docs/custom_biz/doc-66.md",
+    "size_bytes": 869,
+    "crawled_at": "2026-04-12T17:41:31.338858Z"
+  },
+  "doc-67": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-67/",
+    "category": "custom_biz",
+    "title": "关键词问答",
+    "file": "raw_docs/custom_biz/doc-67.md",
+    "size_bytes": 932,
+    "crawled_at": "2026-04-12T17:41:34.287120Z"
+  },
+  "doc-411": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-411/",
+    "category": "custom_biz",
+    "title": "文档问答",
+    "file": "raw_docs/custom_biz/doc-411.md",
+    "size_bytes": 6052,
+    "crawled_at": "2026-04-12T17:41:37.597834Z"
+  },
+  "doc-68": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-68/",
+    "category": "custom_biz",
+    "title": "设备人设开发",
+    "file": "raw_docs/custom_biz/doc-68.md",
+    "size_bytes": 2387,
+    "crawled_at": "2026-04-12T17:41:40.601231Z"
+  },
+  "doc-69": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-69/",
+    "category": "custom_biz",
+    "title": "技能协议",
+    "file": "raw_docs/custom_biz/doc-69.md",
+    "size_bytes": 652,
+    "crawled_at": "2026-04-12T17:41:43.341552Z"
+  },
+  "doc-70": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-70/",
+    "category": "custom_biz",
+    "title": "语义协议：重要字段和通用字段",
+    "file": "raw_docs/custom_biz/doc-70.md",
+    "size_bytes": 21628,
+    "crawled_at": "2026-04-12T17:41:46.347034Z"
+  },
+  "doc-71": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-71/",
+    "category": "custom_biz",
+    "title": "技能后处理协议：标准请求",
+    "file": "raw_docs/custom_biz/doc-71.md",
+    "size_bytes": 7198,
+    "crawled_at": "2026-04-12T17:41:49.218277Z"
+  },
+  "doc-72": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-72/",
+    "category": "custom_biz",
+    "title": "技能后处理协议：请求校验",
+    "file": "raw_docs/custom_biz/doc-72.md",
+    "size_bytes": 2808,
+    "crawled_at": "2026-04-12T17:41:52.072160Z"
+  },
+  "doc-73": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-73/",
+    "category": "custom_biz",
+    "title": "技能后处理协议：Request_v2.1协议",
+    "file": "raw_docs/custom_biz/doc-73.md",
+    "size_bytes": 6454,
+    "crawled_at": "2026-04-12T17:41:54.906536Z"
+  },
+  "doc-74": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-74/",
+    "category": "custom_biz",
+    "title": "技能后处理协议：Response_v2.1协议",
+    "file": "raw_docs/custom_biz/doc-74.md",
+    "size_bytes": 4491,
+    "crawled_at": "2026-04-12T17:41:57.762995Z"
+  },
+  "doc-75": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-75/",
+    "category": "custom_biz",
+    "title": "技能资源限制",
+    "file": "raw_docs/custom_biz/doc-75.md",
+    "size_bytes": 1440,
+    "crawled_at": "2026-04-12T17:42:00.636879Z"
+  },
+  "doc-38": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-38/",
+    "category": "hardware",
+    "title": "6. 硬件模组",
+    "file": "raw_docs/hardware/doc-38.md",
+    "size_bytes": 883,
+    "crawled_at": "2026-04-12T17:42:03.475160Z"
+  },
+  "doc-40": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-40/",
+    "category": "hardware",
+    "title": "6.1 USB声卡套件",
+    "file": "raw_docs/hardware/doc-40.md",
+    "size_bytes": 474,
+    "crawled_at": "2026-04-12T17:42:06.398559Z"
+  },
+  "doc-164": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-164/",
+    "category": "hardware",
+    "title": "6.1.1 USB声卡产品白皮书",
+    "file": "raw_docs/hardware/doc-164.md",
+    "size_bytes": 5600,
+    "crawled_at": "2026-04-12T17:42:10.607494Z"
+  },
+  "doc-165": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-165/",
+    "category": "hardware",
+    "title": "6.1.2 USB声卡使用指南",
+    "file": "raw_docs/hardware/doc-165.md",
+    "size_bytes": 2920,
+    "crawled_at": "2026-04-12T17:42:13.837786Z"
+  },
+  "doc-105": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-105/",
+    "category": "hardware",
+    "title": "6.2 RK3328 降噪板",
+    "file": "raw_docs/hardware/doc-105.md",
+    "size_bytes": 785,
+    "crawled_at": "2026-04-12T17:42:16.720215Z"
+  },
+  "doc-104": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-104/",
+    "category": "hardware",
+    "title": "6.2.1 RK3328降噪板白皮书",
+    "file": "raw_docs/hardware/doc-104.md",
+    "size_bytes": 2645,
+    "crawled_at": "2026-04-12T17:42:22.138462Z"
+  },
+  "doc-106": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-106/",
+    "category": "hardware",
+    "title": "6.2.2 RK3328降噪板使用手册",
+    "file": "raw_docs/hardware/doc-106.md",
+    "size_bytes": 9428,
+    "crawled_at": "2026-04-12T17:42:25.625489Z"
+  },
+  "doc-107": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-107/",
+    "category": "hardware",
+    "title": "6.2.3 RK3328降噪板规格书",
+    "file": "raw_docs/hardware/doc-107.md",
+    "size_bytes": 6047,
+    "crawled_at": "2026-04-12T17:42:28.967930Z"
+  },
+  "doc-108": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-108/",
+    "category": "hardware",
+    "title": "6.2.4 RK3328降噪板协议手册",
+    "file": "raw_docs/hardware/doc-108.md",
+    "size_bytes": 7637,
+    "crawled_at": "2026-04-12T17:42:32.402768Z"
+  },
+  "doc-97": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-97/",
+    "category": "hardware",
+    "title": "6.3 RK3328 AIUI评估板开发套件",
+    "file": "raw_docs/hardware/doc-97.md",
+    "size_bytes": 826,
+    "crawled_at": "2026-04-12T17:42:35.198269Z"
+  },
+  "doc-184": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-184/",
+    "category": "hardware",
+    "title": "6.3.1 RK3328评估板白皮书",
+    "file": "raw_docs/hardware/doc-184.md",
+    "size_bytes": 4630,
+    "crawled_at": "2026-04-12T17:42:38.997839Z"
+  },
+  "doc-185": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-185/",
+    "category": "hardware",
+    "title": "6.3.2 RK3328评估板使用手册",
+    "file": "raw_docs/hardware/doc-185.md",
+    "size_bytes": 9255,
+    "crawled_at": "2026-04-12T17:42:42.759308Z"
+  },
+  "doc-186": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-186/",
+    "category": "hardware",
+    "title": "6.3.3 RK3328评估板规格书",
+    "file": "raw_docs/hardware/doc-186.md",
+    "size_bytes": 6281,
+    "crawled_at": "2026-04-12T17:42:47.072974Z"
+  },
+  "doc-187": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-187/",
+    "category": "hardware",
+    "title": "6.3.4 RK3328评估板开发手册",
+    "file": "raw_docs/hardware/doc-187.md",
+    "size_bytes": 48762,
+    "crawled_at": "2026-04-12T17:42:50.028988Z"
+  },
+  "doc-815": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-815/",
+    "category": "hardware",
+    "title": "6.4 RK3588S 通用多模态开发套件",
+    "file": "raw_docs/hardware/doc-815.md",
+    "size_bytes": 696,
+    "crawled_at": "2026-04-12T17:42:52.951605Z"
+  },
+  "doc-816": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-816/",
+    "category": "hardware",
+    "title": "6.4.1 RK3588S 多模态套件白皮书",
+    "file": "raw_docs/hardware/doc-816.md",
+    "size_bytes": 18683,
+    "crawled_at": "2026-04-12T17:42:56.822826Z"
+  },
+  "doc-817": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-817/",
+    "category": "hardware",
+    "title": "6.4.2 RK3588S 多模态套件使用手册",
+    "file": "raw_docs/hardware/doc-817.md",
+    "size_bytes": 12473,
+    "crawled_at": "2026-04-12T17:43:01.572269Z"
+  },
+  "doc-829": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-829/",
+    "category": "hardware",
+    "title": "6.4.3 RK3588S 多模态主板规格书",
+    "file": "raw_docs/hardware/doc-829.md",
+    "size_bytes": 25612,
+    "crawled_at": "2026-04-12T17:43:05.391173Z"
+  },
+  "doc-357": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-357/",
+    "category": "hardware",
+    "title": "6.5 RK3588 AIUI多模态开发套件",
+    "file": "raw_docs/hardware/doc-357.md",
+    "size_bytes": 1031,
+    "crawled_at": "2026-04-12T17:43:08.292925Z"
+  },
+  "doc-361": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-361/",
+    "category": "hardware",
+    "title": "6.5.1 RK3588一体机多模态产品规格书",
+    "file": "raw_docs/hardware/doc-361.md",
+    "size_bytes": 7542,
+    "crawled_at": "2026-04-12T17:43:16.541862Z"
+  },
+  "doc-362": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-362/",
+    "category": "hardware",
+    "title": "6.5.2 RK3588多模态套件使用手册",
+    "file": "raw_docs/hardware/doc-362.md",
+    "size_bytes": 15095,
+    "crawled_at": "2026-04-12T17:43:21.388054Z"
+  },
+  "doc-360": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-360/",
+    "category": "hardware",
+    "title": "6.5.3 视频传输协议",
+    "file": "raw_docs/hardware/doc-360.md",
+    "size_bytes": 7744,
+    "crawled_at": "2026-04-12T17:43:24.344340Z"
+  },
+  "doc-367": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-367/",
+    "category": "hardware",
+    "title": "6.5.4 识别语义传输协议",
+    "file": "raw_docs/hardware/doc-367.md",
+    "size_bytes": 25051,
+    "crawled_at": "2026-04-12T17:43:27.251747Z"
+  },
+  "doc-392": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-392/",
+    "category": "hardware",
+    "title": "6.5.5 音频传输协议",
+    "file": "raw_docs/hardware/doc-392.md",
+    "size_bytes": 3037,
+    "crawled_at": "2026-04-12T17:43:30.193251Z"
+  },
+  "doc-822": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-822/",
+    "category": "hardware",
+    "title": "6.5.6 AIUI类型消息事件",
+    "file": "raw_docs/hardware/doc-822.md",
+    "size_bytes": 1782,
+    "crawled_at": "2026-04-12T17:43:33.160638Z"
+  },
+  "doc-41": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-41/",
+    "category": "hardware",
+    "title": "6.6 AC7911B AIUI语音开发套件",
+    "file": "raw_docs/hardware/doc-41.md",
+    "size_bytes": 566,
+    "crawled_at": "2026-04-12T17:43:36.025298Z"
+  },
+  "doc-109": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-109/",
+    "category": "hardware",
+    "title": "6.6.1 AC7911B-产品白皮书",
+    "file": "raw_docs/hardware/doc-109.md",
+    "size_bytes": 7128,
+    "crawled_at": "2026-04-12T17:43:41.222154Z"
+  },
+  "doc-110": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-110/",
+    "category": "hardware",
+    "title": "6.6.2 AC7911B-快速体验指南",
+    "file": "raw_docs/hardware/doc-110.md",
+    "size_bytes": 2567,
+    "crawled_at": "2026-04-12T17:43:46.459162Z"
+  },
+  "doc-99": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-99/",
+    "category": "hardware",
+    "title": "6.7 ZG803 离线语音识别套件",
+    "file": "raw_docs/hardware/doc-99.md",
+    "size_bytes": 402,
+    "crawled_at": "2026-04-12T17:43:49.342960Z"
+  },
+  "doc-172": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-172/",
+    "category": "hardware",
+    "title": "6.7.1 ZG803 产品白皮书",
+    "file": "raw_docs/hardware/doc-172.md",
+    "size_bytes": 1791,
+    "crawled_at": "2026-04-12T17:43:52.257033Z"
+  },
+  "doc-19": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-19/",
+    "category": "hardware",
+    "title": "6.8 (旧)AIUI评估板接入",
+    "file": "raw_docs/hardware/doc-19.md",
+    "size_bytes": 1090,
+    "crawled_at": "2026-04-12T17:43:55.024233Z"
+  },
+  "doc-32": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-32/",
+    "category": "hardware",
+    "title": "6.8.1 集成方式",
+    "file": "raw_docs/hardware/doc-32.md",
+    "size_bytes": 4137,
+    "crawled_at": "2026-04-12T17:43:58.527068Z"
+  },
+  "doc-33": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-33/",
+    "category": "hardware",
+    "title": "6.8.2 软件包说明",
+    "file": "raw_docs/hardware/doc-33.md",
+    "size_bytes": 3399,
+    "crawled_at": "2026-04-12T17:44:01.382342Z"
+  },
+  "doc-34": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-34/",
+    "category": "hardware",
+    "title": "6.8.3 AIUIServiceKitSDK",
+    "file": "raw_docs/hardware/doc-34.md",
+    "size_bytes": 3331,
+    "crawled_at": "2026-04-12T17:44:04.241303Z"
+  },
+  "doc-35": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-35/",
+    "category": "hardware",
+    "title": "6.8.4 串口SDK",
+    "file": "raw_docs/hardware/doc-35.md",
+    "size_bytes": 23380,
+    "crawled_at": "2026-04-12T17:44:07.199829Z"
+  },
+  "doc-36": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-36/",
+    "category": "hardware",
+    "title": "6.8.5 评估板参数配置",
+    "file": "raw_docs/hardware/doc-36.md",
+    "size_bytes": 10490,
+    "crawled_at": "2026-04-12T17:44:10.160025Z"
+  },
+  "doc-37": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-37/",
+    "category": "hardware",
+    "title": "6.8.6 调试升级",
+    "file": "raw_docs/hardware/doc-37.md",
+    "size_bytes": 1839,
+    "crawled_at": "2026-04-12T17:44:13.094091Z"
+  },
+  "doc-79": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-79/",
+    "category": "faq",
+    "title": "7. 常见问题处理",
+    "file": "raw_docs/faq/doc-79.md",
+    "size_bytes": 377,
+    "crawled_at": "2026-04-12T17:44:15.886191Z"
+  },
+  "doc-80": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-80/",
+    "category": "faq",
+    "title": "7.1 AIUI常见问题",
+    "file": "raw_docs/faq/doc-80.md",
+    "size_bytes": 14521,
+    "crawled_at": "2026-04-12T17:44:18.847825Z"
+  },
+  "doc-81": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-81/",
+    "category": "faq",
+    "title": "7.2 评估板常见问题",
+    "file": "raw_docs/faq/doc-81.md",
+    "size_bytes": 3751,
+    "crawled_at": "2026-04-12T17:44:21.709828Z"
+  },
+  "doc-82": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-82/",
+    "category": "faq",
+    "title": "7.3 动态实体常见问题",
+    "file": "raw_docs/faq/doc-82.md",
+    "size_bytes": 1435,
+    "crawled_at": "2026-04-12T17:44:24.523720Z"
+  },
+  "doc-83": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-83/",
+    "category": "faq",
+    "title": "8. 联系方式",
+    "file": "raw_docs/faq/doc-83.md",
+    "size_bytes": 358,
+    "crawled_at": "2026-04-12T17:44:27.354066Z"
+  },
+  "doc-84": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-84/",
+    "category": "legal",
+    "title": "9. 服务条款",
+    "file": "raw_docs/legal/doc-84.md",
+    "size_bytes": 308,
+    "crawled_at": "2026-04-12T17:44:30.188045Z"
+  },
+  "doc-85": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-85/",
+    "category": "legal",
+    "title": "AIUI开放平台服务协议",
+    "file": "raw_docs/legal/doc-85.md",
+    "size_bytes": 9804,
+    "crawled_at": "2026-04-12T17:44:33.105259Z"
+  },
+  "doc-86": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-86/",
+    "category": "legal",
+    "title": "AIUI开放平台隐私政策",
+    "file": "raw_docs/legal/doc-86.md",
+    "size_bytes": 46351,
+    "crawled_at": "2026-04-12T17:44:35.924122Z"
+  },
+  "doc-88": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-88/",
+    "category": "legal",
+    "title": "小飞在家用户协议",
+    "file": "raw_docs/legal/doc-88.md",
+    "size_bytes": 13967,
+    "crawled_at": "2026-04-12T17:44:38.895357Z"
+  },
+  "doc-89": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-89/",
+    "category": "legal",
+    "title": "小飞在家隐私政策",
+    "file": "raw_docs/legal/doc-89.md",
+    "size_bytes": 26525,
+    "crawled_at": "2026-04-12T17:44:41.889738Z"
+  },
+  "doc-410": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-410/",
+    "category": "legal",
+    "title": "小飞在家开源软件使用许可",
+    "file": "raw_docs/legal/doc-410.md",
+    "size_bytes": 14870,
+    "crawled_at": "2026-04-12T17:44:44.710605Z"
+  },
+  "doc-91": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-91/",
+    "category": "legal",
+    "title": "讯飞账号隐私政策",
+    "file": "raw_docs/legal/doc-91.md",
+    "size_bytes": 34369,
+    "crawled_at": "2026-04-12T17:44:47.845812Z"
+  },
+  "doc-92": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-92/",
+    "category": "legal",
+    "title": "讯飞账号用户协议",
+    "file": "raw_docs/legal/doc-92.md",
+    "size_bytes": 22798,
+    "crawled_at": "2026-04-12T17:44:50.781374Z"
+  },
+  "doc-94": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-94/",
+    "category": "legal",
+    "title": "讯飞带屏音箱用户协议",
+    "file": "raw_docs/legal/doc-94.md",
+    "size_bytes": 13950,
+    "crawled_at": "2026-04-12T17:44:53.601833Z"
+  },
+  "doc-95": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-95/",
+    "category": "legal",
+    "title": "讯飞带屏音箱隐私政策",
+    "file": "raw_docs/legal/doc-95.md",
+    "size_bytes": 26730,
+    "crawled_at": "2026-04-12T17:44:56.441883Z"
+  },
+  "doc-191": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-191/",
+    "category": "legal",
+    "title": "AIUI SDK隐私政策",
+    "file": "raw_docs/legal/doc-191.md",
+    "size_bytes": 22298,
+    "crawled_at": "2026-04-12T17:44:59.334817Z"
+  },
+  "doc-192": {
+    "status": "ok",
+    "url": "https://aiui-doc.xf-yun.com/project-1/doc-192/",
+    "category": "legal",
+    "title": "AIUI SDK合规使用说明",
+    "file": "raw_docs/legal/doc-192.md",
+    "size_bytes": 15369,
+    "crawled_at": "2026-04-12T17:45:02.320906Z"
+  }
+}

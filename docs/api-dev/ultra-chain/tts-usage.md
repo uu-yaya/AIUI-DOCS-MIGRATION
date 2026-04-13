@@ -1,0 +1,668 @@
+---
+title: 合成能力使用
+---
+
+合成能力使用概述
+
+本文档主要介绍在**极速超拟人交互链路**下使用API协议进行主动合成服务调用说明。
+
+合成类型主要包括：
+
+## 调用说明
+
+温馨提示
+
+1、极速超拟人链路新增流式合成能力，是需要绑定使**极速超拟人发音人**才可以，其他类别发音人不支持使用
+
+### 通用合成
+
+**该合成类型指的是使用`普通发音人`进行文本合成，合成文本需`一帧发送完毕`。**
+
+#### 确认参数
+
+普通类发音人除部分免费外，其它发音人需要联系讯飞商务授权，具体发音人信息见[发音人列表](/sdk-dev/voice-list "发音人列表")。
+
+示例普通发音人：小娟
+
+- vcn：**x2\_xiaojuan**
+
+情景模式固定取值：
+
+- scene：**IFLYTEK.TTS（语音合成）**
+
+#### 请求构建
+
+`header.status` 和 `payload.text.status` 取值保持一致，可以是 **2 或 3**。
+`构建请求`如下：
+
+```json
+{
+    "header": {
+        "sn": "1234567890",
+        "appid": "a44e0f36",
+        "stmid": "text-1",
+        "interact_mode": "oneshot",            // 文本类请求固定传oneshot
+        "status": 3,
+        "scene": "IFLYTEK.tts"        // 文本合成类请求固定取值（注意超拟人合成时取值方式）
+    },
+    "parameter": {
+        "tts": {
+            "vcn": "x2_xiaojuan",                // 普通发音人取值
+            "speed": 50,
+            "volume": 50,
+            "pitch": 50,
+            "tts": {
+                "channels": 1,
+                "sample_rate": 16000,
+                "bit_depth": 16,
+                "encoding": "raw"
+            }
+        }
+    },
+    "payload": {
+        "text": {
+            "compress": "raw",
+            "format": "plain",
+            "text": "5omT55S16K+d57uZ5byg5LiJ",        // 待合成文本：需经过base64编码
+            "encoding": "utf8",
+            "status": 3
+        }
+    }
+}
+```
+
+### 超拟人合成
+
+**该合成类型指的是使用`超拟人发音人`进行文本合成，合成文本需`一帧发送完毕`。**
+
+#### 确认参数
+
+在极速超拟人链路下，所有超拟人也都免费开放开发者使用。各超拟人发音人信息见[发音人列表](/sdk-dev/voice-list "发音人列表")。
+
+示例超拟人发音人：聆小琪
+
+- vcn：**x4\_lingxiaoqi\_oral**
+
+情景模式固定取值：
+
+- scene：**IFLYTEK.TTS（语音合成）**
+
+#### 请求构建
+
+`header.status` 和 `payload.text.status` 取值保持一致，可以是 **2 或 3**。
+`构建请求`如下：
+
+```json
+{
+    "header": {
+        "sn": "1234567890",
+        "appid": "a44e0f36",
+        "stmid": "text-1",
+        "interact_mode": "oneshot",                // 文本类请求固定传oneshot
+        "status": 3,
+        "scene": "IFLYTEK.tts"                    // 超拟人合成固定传值
+    },
+    "parameter": {
+        "tts": {
+            "vcn": "x4_lingxiaoqi_oral",        // 超拟人发音人取值
+            "speed": 50,
+            "volume": 50,
+            "pitch": 50,
+            "tts": {
+                "channels": 1,
+                "sample_rate": 16000,
+                "bit_depth": 16,
+                "encoding": "raw"
+            }
+        }
+    },
+    "payload": {
+        "text": {
+            "compress": "raw",
+            "format": "plain",
+            "text": "5omT55S16K+d57uZ5byg5LiJ",        // 待合成文本：需经过base64编码
+            "encoding": "utf8",
+            "status": 3
+        }
+    }
+}
+```
+
+### 声音复刻合成
+
+**该合成类型指的是使用`声音复刻创建的发音人`进行文本合成，合成文本除默认支持的`一帧发送完毕`，现升级也支持`分帧发送`。**
+
+- 合成文本整帧合成调用见下方说明
+- 合成文本分帧发送调用参考本章节[**【1.5 流式合成】**](#流式合成调用)说明
+
+#### 确认参数
+
+声音复刻合成类请求，首先需要开发者按照`声音复刻API`注册获取资源id（`res_id`），资源注册详见[4.3.4 声音复刻API](/api-dev/ultra-chain/voice-clone-api "4.3.4 声音复刻API")说明。
+
+声音复刻合成参数示例：
+
+- vcn：
+  - **x5\_clone** // 声音复刻v4版本资源使用时，固定取值
+  - **x6\_clone** // 声音复刻omni\_v版本资源使用时，固定取值
+- res\_id：**fsdfwee234324** // 创建的资源id
+- scene：**IFLYTEK.TTS（语音合成）** // 固定取值
+
+#### 请求构建
+
+`header.status` 和 `payload.text.status` 取值保持一致，可以是 **2 或 3**。
+`构建请求`如下：
+
+```json
+{
+    "header": {
+        "sn": "1234567890",                    // 与资源注册sn保持一致
+        "appid": "a44e0f36",                // 与资源注册appid保持一致
+        "stmid": "text-1",
+        "interact_mode": "oneshot",                // 文本类请求固定传oneshot
+        "status": 3,
+        "scene": "IFLYTEK.tts"
+    },
+    "parameter": {
+        "tts": {
+            "vcn": "x5_clone",                    // 声音复刻合成固定传值
+            "res_id": "fsdfwee234324",            // 声音复刻资源id
+            "speed": 50,
+            "volume": 50,
+            "pitch": 50,
+            "tts": {
+                "channels": 1,
+                "sample_rate": 16000,
+                "bit_depth": 16,
+                "encoding": "raw"
+            }
+        }
+    },
+    "payload": {
+        "text": {
+            "compress": "raw",
+            "format": "plain",
+            "text": "5omT55S16K+d57uZ5byg5LiJ",        // 待合成文本：需经过base64编码
+            "encoding": "utf8",
+            "status": 3
+        }
+    }
+}
+```
+
+### 极速超拟人合成
+
+**该合成类型指的是使用`极速超拟人发音人`进行文本合成，合成文本除默认支持的`一帧发送完毕`，也支持`分帧发送`。**
+
+- 合成文本整帧合成调用见下方说明
+- 合成文本分帧发送调用参考本章节[**【1.5 流式合成】**](#流式合成调用)说明
+
+#### 确认参数
+
+在极速超拟人链路下，所有极速超拟人都是免费开放开发者使用。各极速超拟人发音人信息见[发音人列表](/sdk-dev/voice-list "发音人列表")。
+
+示例极速超拟人发音人：聆小玥
+
+- vcn：**x5\_lingxiaoyue\_flow**
+
+情景模式固定取值：
+
+- scene：**IFLYTEK.TTS（语音合成）**
+
+#### 请求构建
+
+`header.status` 和 `payload.text.status` 取值保持一致，可以是 **2 或 3**。
+`构建请求`如下：
+
+```json
+{
+    "header": {
+        "sn": "1234567890",
+        "appid": "a44e0f36",
+        "stmid": "text-1",
+        "interact_mode": "oneshot",                // 文本类请求固定传oneshot
+        "status": 3,
+        "scene": "IFLYTEK.tts"                    // 超拟人合成固定传值
+    },
+    "parameter": {
+        "tts": {
+            "vcn": "x5_lingxiaoyue_flow",        // 极速超拟人发音人取值
+            "speed": 50,
+            "volume": 50,
+            "pitch": 50,
+            "tts": {
+                "channels": 1,
+                "sample_rate": 16000,
+                "bit_depth": 16,
+                "encoding": "raw"
+            }
+        }
+    },
+    "payload": {
+        "text": {
+            "compress": "raw",
+            "format": "plain",
+            "text": "5omT55S16K+d57uZ5byg5LiJ",        // 待合成文本：需经过base64编码
+            "encoding": "utf8",
+            "status": 3
+        }
+    }
+}
+```
+
+### 流式合成
+
+`流式合成`即使用特定发音人对合成文本进行分帧发送，常用于大模型流式输出的文本合成实现。现阶段支持流式合成方式的发音人类型有：
+
+- **`极速超拟人`**
+- **`声音复刻`**
+
+#### 确认参数
+
+类型1：使用极速超拟人发音人
+
+- vcn：**x5\_lingxiaoyue\_flow** // 聆小玥
+- scene：**IFLYTEK.TTS（语音合成）** // 固定取值
+
+类型2：使用声音复刻发音人
+
+- vcn：
+  - **x5\_clone** // 声音复刻v4版本资源使用时，固定取值
+  - **x6\_clone** // 声音复刻omni\_v版本资源使用时，固定取值
+- res\_id：**fsdfwee234324** // 创建的资源id
+- scene：**IFLYTEK.TTS（语音合成）** // 固定取值
+
+#### 请求构建
+
+温馨提示
+
+1、**header.status** 和 **payload.text.status** 取值保持一致，首帧传值0，中间帧传1，尾帧传2。
+
+2、与极速通用协议中间帧可省略参数（parameter）不一样，**流式合成每一帧都需要携带参数。**
+
+`构建请求`如下：
+
+```text
+示例分段合成文本如下：
+{"好嘞，","音量已经","调到一半","啦。"}
+
+首帧：【header.status=0，payload.text.status=0】
+{"payload":{"text":{"format":"plain","text":"5aW95Zie77yM","encoding":"utf8","status":0}},"parameter":{"tts":{"vcn":"x5_lingxiaoyue_flow","volume":100,"tts":{"sample_rate":16000,"channels":1,"encoding":"lame","bit_depth":16},"pitch":50,"speed":50}},"header":{"appid":"6bd8c032","sn":"d275e4eba6080fyh","stmid":"text-1","interact_mode":"oneshot","status":0,"scene":"IFLYTEK.tts"}}
+
+中间帧：【header.status=1，payload.text.status=1】
+{"payload":{"text":{"format":"plain","text":"6Z+z6YeP5bey57uP","encoding":"utf8","status":1}},"parameter":{"tts":{"vcn":"x5_lingxiaoyue_flow","volume":100,"tts":{"sample_rate":16000,"channels":1,"encoding":"lame","bit_depth":16},"pitch":50,"speed":50}},"header":{"appid":"6bd8c032","sn":"d275e4eba6080fyh","stmid":"text-1","interact_mode":"oneshot","status":1,"scene":"IFLYTEK.tts"}}
+{"payload":{"text":{"format":"plain","text":"6LCD5Yiw5LiA5Y2K","encoding":"utf8","status":1}},"parameter":{"tts":{"vcn":"x5_lingxiaoyue_flow","volume":100,"tts":{"sample_rate":16000,"channels":1,"encoding":"lame","bit_depth":16},"pitch":50,"speed":50}},"header":{"appid":"6bd8c032","sn":"d275e4eba6080fyh","stmid":"text-1","interact_mode":"oneshot","status":1,"scene":"IFLYTEK.tts"}}
+
+尾帧：【header.status=2，payload.text.status=2】
+{"payload":{"text":{"format":"plain","text":"5ZWm44CC","encoding":"utf8","status":2}},"parameter":{"tts":{"vcn":"x5_lingxiaoyue_flow","volume":100,"tts":{"sample_rate":16000,"channels":1,"encoding":"lame","bit_depth":16},"pitch":50,"speed":50}},"header":{"appid":"6bd8c032","sn":"d275e4eba6080fyh","stmid":"text-1","interact_mode":"oneshot","status":2,"scene":"IFLYTEK.tts"}}
+```
+
+## 示例代码
+
+下面提供`极速超拟人链路流式合成`调用示例，开发者配置自己的应用信息即可体验
+
+点击查看python代码
+
+```python
+import _thread as thread
+import base64
+import datetime
+import hashlib
+import hmac
+import json
+import traceback
+from urllib.parse import urlparse
+import time
+from datetime import datetime
+from time import mktime
+from urllib.parse import urlencode
+from wsgiref.handlers import format_date_time
+
+import websocket
+
+## 修改应用应用配置和文件地址后直接执行即可
+
+# 请求地址
+url = "wss://aiui.xf-yun.com/v3/aiint/sos"
+
+# 应用配置
+appid = ""
+api_key = ""
+api_secret = ""
+
+sn="test-sn"
+
+# 场景
+scene = "IFLYTEK.tts"
+
+vcn = "x5_lingxiaoyue_flow"
+
+# 请求类型用来设置文本请求还是音频请求，text/audio
+data_type = 'text'
+
+## 音频请求需要先设置audio_path
+## 当前音频格式默认pcm 16k 16bit，修改音频格式需要修改audioReq中的payload中音频相关参数
+# data_type = 'audio'
+
+# 音频请求上传的音频文件路径：示例
+audio_path = "D:/weather.pcm"
+
+# 文本请求输入的文本
+question = "你是谁，明天下雨吗"
+
+# 流式合成文本数据
+usePgsTts = True
+ttsTextList = ["好嘞，","音量已经","调到一半","啦。"]
+
+# 下面两个参数配合音频采样率设置，16k 16bit的音频： 每 40毫秒 发送 1280字节
+# 每帧音频数据大小，单位字节
+frame_size = 1280
+# 每帧音频发送间隔
+sleep_inetrval = 0.04
+
+class AIUIV3WsClient(object):
+    # 初始化
+    def __init__(self):
+        self.handshake = self.assemble_auth_url(url)
+
+    # 生成握手url
+    def assemble_auth_url(self, base_url):
+        host = urlparse(base_url).netloc
+        path = urlparse(base_url).path
+        # 生成RFC1123格式的时间戳
+        now = datetime.now()
+        date = format_date_time(mktime(now.timetuple()))
+
+        # 拼接字符串
+        signature_origin = "host: " + host + "\n"
+        signature_origin += "date: " + date + "\n"
+        signature_origin += "GET " + path + " HTTP/1.1"
+
+        # 进行hmac-sha256进行加密
+        print(signature_origin)
+        signature_sha = hmac.new(api_secret.encode('utf-8'), signature_origin.encode('utf-8'),
+                                 digestmod=hashlib.sha256).digest()
+
+        signature_sha_base64 = base64.b64encode(signature_sha).decode(encoding='utf-8')
+
+        authorization_origin = f'api_key="{api_key}", algorithm="hmac-sha256", headers="host date request-line", signature="{signature_sha_base64}"'
+
+        print('get authorization_origin:', authorization_origin)
+        authorization = base64.b64encode(authorization_origin.encode('utf-8')).decode(encoding='utf-8')
+
+        # 将请求的鉴权参数组合为字典
+        v = {
+            "host": host,
+            "date": date,
+            "authorization": authorization,
+        }
+        # 拼接鉴权参数，生成url
+        url = base_url + '?' + urlencode(v)
+        # 此处打印出建立连接时候的url,参考本demo的时候可取消上方打印的注释，比对相同参数时生成的url与自己代码生成的url是否一致
+        return url
+
+    def on_open(self, ws):
+        # 连接建立成功后开始发送数据
+        print("### ws connect open")
+        thread.start_new_thread(self.run, ())
+
+    def run(self):
+        if data_type == "text":
+            self.text_req()
+        if data_type == "audio":
+            self.audio_req()
+
+    def text_req(self):
+        # 流式合成
+        if "IFLYTEK.tts" == scene and usePgsTts:
+            for index, item in enumerate(ttsTextList):
+                if index == 0:  # 首帧文本 0
+                    req = self.genTextReq(item, 0)
+                elif index == len(ttsTextList) - 1:  # 尾帧文本 2
+                    req = self.genTextReq(item, 2)
+                else:  # 中间帧文本 1
+                    req = self.genTextReq(item, 1)
+
+                self.ws.send(req)
+        else:
+            req = self.genTextReq(question, 2)
+            self.ws.send(req)
+
+    def audio_req(self):
+        f = open(audio_path, 'rb')
+        try:
+            f.seek(0, 2)
+            eof = f.tell()
+            f.seek(0, 0)
+
+            first = True
+            status = 0
+            while True:
+                d = f.read(frame_size)
+                if not d:
+                    break
+
+                if  f.tell() >= eof:
+                    # 尾帧
+                    status = 2
+                elif not first:
+                    # 中间帧
+                    status = 1
+
+                req = self.genAudioReq(d, status)
+                first = False
+                self.ws.send(req)
+                # 发送间隔
+                time.sleep(sleep_inetrval)
+        finally:
+            f.close()
+
+    def genTextReq(self, data, status):
+        aiui_data = {
+            "header": {
+                "appid": appid,
+                "sn": sn,
+                "stmid": "text-1",
+                "status": status,
+                "scene": scene,
+                "interact_mode": "oneshot"
+            },
+            "parameter": {
+                "nlp": {
+                    "nlp": {
+                        "compress": "raw",
+                        "format": "json",
+                        "encoding": "utf8"
+                    },
+                    "new_session": True
+                },
+                # 合成参数
+                "tts": {
+                    # 发音人
+                    "vcn": vcn,
+                    "tts": {
+                        "channels": 1,
+                        "bit_depth": 16,
+                        "sample_rate": 16000,
+                        "encoding": "lame"
+                    }
+                }
+            },
+            "payload": {
+                "text": {
+                    "compress": "raw",
+                    "format": "plain",
+                    "encoding": "utf8",
+                    "status": status,
+                    "text": base64.b64encode(data.encode('utf-8')).decode('utf-8')
+                }
+            }
+        }
+        return json.dumps(aiui_data)
+
+    def genAudioReq(self, data, status):
+        # 构造pcm音频请求参数
+        aiui_data = {
+            "header": {
+                "appid": appid,
+                "sn": sn,
+                "stmid": "audio-1",
+                "status": status,
+                "scene": scene,
+                "interact_mode": "continuous"
+            },
+            "parameter": {
+                "nlp": {
+                    "nlp": {
+                        "compress": "raw",
+                        "format": "json",
+                        "encoding": "utf8"
+                    },
+                    "new_session": True
+                },
+                # 合成参数
+                "tts": {
+                    # 发音人
+                    "vcn": vcn,
+                    "tts": {
+                        "channels": 1,
+                        "bit_depth": 16,
+                        "sample_rate": 16000,
+                        "encoding": "raw"
+                    }
+                }
+            },
+            "payload": {
+                "audio": {
+                    "encoding": "raw",
+                    "sample_rate": 16000,
+                    "channels": 1,
+                    "bit_depth": 16,
+                    "status": status,
+                    "audio": base64.b64encode(data).decode(),
+                }
+            }
+        }
+        return json.dumps(aiui_data)
+
+    # 收到websocket消息的处理
+    def on_message(self, ws, message):
+        try:
+            data = json.loads(message)
+
+            # print('原始结果:', message)
+            header = data['header']
+            code = header['code']
+            # 结果解析
+            if code != 0:
+                print('请求错误：', code, json.dumps(data, ensure_ascii=False))
+                ws.close()
+            sid = header.get('sid', "sid")
+            payload = data.get('payload', {})
+            parameter = data.get('parameter', {})
+            if 'event' in payload:
+                # 事件结果
+                event_json = payload['event']
+                event_text_bs64 = event_json['text']
+                event_text = base64.b64decode(event_text_bs64).decode('utf-8')
+                print("事件，", event_text)
+            if 'iat' in payload:
+                # 识别结果
+                iat_json = payload['iat']
+                iat_text_bs64 = iat_json['text']
+                iat_text = base64.b64decode(iat_text_bs64).decode('utf-8')
+                print("识别结果，seq：", iat_json['seq'], "，status：" , iat_json['status'], "，", self.parse_iat_result(iat_text))
+            if 'cbm_tidy' in payload:
+                # 语义规整结果（历史改写），意图拆分
+                cbm_tidy_json = payload['cbm_tidy']
+                cbm_tidy_text_bs64 = cbm_tidy_json['text']
+                cbm_tidy_text = base64.b64decode(cbm_tidy_text_bs64).decode('utf-8')
+                cbm_tidy_json = json.loads(cbm_tidy_text)
+                print("语义规整结果：")
+                intents = cbm_tidy_json['intent']
+                for intent in intents:
+                    print("  intent index：", intent['index'], "，意图语料：", intent['value'])
+            if 'cbm_intent_domain' in payload:
+                # 意图拆分后的落域结果
+                cbm_intent_domain_json = payload['cbm_intent_domain']
+                cbm_intent_domain_text_bs64 = cbm_intent_domain_json['text']
+                cbm_intent_domain_text = base64.b64decode(cbm_intent_domain_text_bs64).decode('utf-8')
+                index = self.get_intent_index(parameter, "cbm_intent_domain")
+                print("intent index：", index, "，落域结果：", cbm_intent_domain_text)
+            if 'cbm_semantic' in payload:
+                # 技能结果
+                cbm_semantic_json = payload['cbm_semantic']
+                cbm_semantic_text_bs64 = cbm_semantic_json['text']
+                cbm_semantic_text = base64.b64decode(cbm_semantic_text_bs64).decode('utf-8')
+                cbm_semantic_json = json.loads(cbm_semantic_text)
+                index = self.get_intent_index(parameter, "cbm_semantic")
+                if cbm_semantic_json['rc'] != 0:
+                    print("intent index：", index, "，技能结果：说法：", cbm_semantic_json['text'], "，", cbm_semantic_text)
+                else:
+                    print("intent index：", index, "，技能结果：说法：", cbm_semantic_json['text'], "，命中技能：", cbm_semantic_json['category'], "，回复：", cbm_semantic_json['answer']['text'])
+            if 'nlp' in payload:
+                # 语义结果，经过大模型润色的最终结果
+                nlp_json = payload['nlp']
+                nlp_text_bs64 = nlp_json['text']
+                nlp_text = base64.b64decode(nlp_text_bs64).decode('utf-8')
+                print("语义结果 seq：", nlp_json['seq'], "，status：", nlp_json['status'], "，nlp.text: ", nlp_text)
+            if 'tts' in payload:
+                # 将结果保存到文件，文件后缀名需要根据tts参数中的encoding来决定
+                audioData = payload['tts']['audio']
+                if audioData != None:
+                    audioBytes = base64.b64decode(audioData)
+                    print("tts结果: ", len(audioBytes), " 字节")
+                    with open(sid + "." + self.get_suffix(payload['tts']['encoding']), 'ab') as file:
+                        file.write(audioBytes)
+
+            if 'status' in header and header['status'] == 2:
+                # 接收最后一帧结果，关闭连接
+                ws.close()
+        except Exception as e:
+            traceback.print_exc()
+            pass
+
+    def parse_iat_result(self, iat_res):
+        iat_text = ""
+        iat_res_json = json.loads(iat_res)
+        for cw in iat_res_json['text']['ws']:
+            for cw_item in cw["cw"]:
+                iat_text += cw_item['w']
+
+        return iat_text
+
+    def get_intent_index(self, parameter, key):
+        if key in parameter:
+            return parameter[key]['loc']['intent']
+
+        return "-"
+
+    def get_suffix(self, encoding):
+        if encoding == 'raw':
+            return 'pcm'
+        if encoding == 'lame':
+            return 'mp3'
+
+        return 'unknow'
+
+    def on_error(self, ws, error):
+        print("### connection error: ", str(error))
+        ws.close()
+
+    def on_close(self, ws, close_status_code, close_msg):
+        print("### connection is closed ###, cloce code:", close_status_code)
+
+    def start(self):
+        self.ws = websocket.WebSocketApp(
+            self.handshake,
+            on_open=self.on_open,
+            on_message=self.on_message,
+            on_error=self.on_error,
+            on_close=self.on_close,
+        )
+        self.ws.run_forever()
+
+if __name__ == "__main__":
+
+    client = AIUIV3WsClient()
+    client.start()
+```

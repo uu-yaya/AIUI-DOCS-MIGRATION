@@ -1,0 +1,194 @@
+[
+  {
+    "file": "raw_docs/custom_biz/doc-47.md",
+    "line": 71,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/2_reference/exaAndTem.png",
+    "inferred_description": "语料类型示例与模板示意图",
+    "context": "**语料类型区分** ：\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/2_reference/exaAndTem.png)\n\n### 2.2. 语料编写",
+    "placeholder": "![待补充：语料类型示例与模板示意图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-49.md",
+    "line": 74,
+    "original_url": "https://xfyun-doc.cn-bj.ufileos.com/1516610912333334/2应用级.jpg",
+    "inferred_description": "动态实体应用级作用域示意图",
+    "context": "在同一个appid下生效的资源内容\n\n![](https://xfyun-doc.cn-bj.ufileos.com/1516610912333334/2应用级.jpg)\n\n**举例**",
+    "placeholder": "![待补充：动态实体应用级作用域示意图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-49.md",
+    "line": 101,
+    "original_url": "https://xfyun-doc.cn-bj.ufileos.com/1516610928159418/3用户级.jpg",
+    "inferred_description": "动态实体用户级作用域示意图",
+    "context": "\n在同一个设备id下生效的资源内容\n![](https://xfyun-doc.cn-bj.ufileos.com/1516610928159418/3用户级.jpg)\n\n**举例**",
+    "placeholder": "![待补充：动态实体用户级作用域示意图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-49.md",
+    "line": 117,
+    "original_url": "https://xfyun-doc.cn-bj.ufileos.com/1516610939214227/4自定义级.jpg",
+    "inferred_description": "动态实体自定义级作用域示意图",
+    "context": "在同一个`自定义级别维度的值`下生效的资源内容\n\n![](https://xfyun-doc.cn-bj.ufileos.com/1516610939214227/4自定义级.jpg)\n\n**举例**",
+    "placeholder": "![待补充：动态实体自定义级作用域示意图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-51.md",
+    "line": 63,
+    "original_url": "http://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/2_reference/tcdh.png",
+    "inferred_description": "填槽对话流程图",
+    "context": "- 如果开发者调用了ElicitSlotDirective（槽追问）、ConfirmSlotDirective（槽位确认）、ConfirmIntentDirective（意图确认），则以开发者指定的环节为准。\n\n![](http://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/2_reference/tcdh.png)\n\n## 示例",
+    "placeholder": "![待补充：填槽对话流程图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-55.md",
+    "line": 19,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/3_suggestion/01.png",
+    "inferred_description": "技能图标规范示意图 01",
+    "context": "参考下图：\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/3_suggestion/01.png)\n<!-- TODO: 需手动补充图片，原始 URL: https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/3_suggestion/02.png -->\n![待补充：![](https://aiui-file.cn-bj.uf示意图](/_images/placeholder.svg)",
+    "placeholder": "![待补充：技能图标规范示意图 01](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-55.md",
+    "line": 21,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/3_suggestion/02.png",
+    "inferred_description": "技能图标规范示意图 02",
+    "context": "（技能图标规范，连续4张示意图之第2张）",
+    "placeholder": "![待补充：技能图标规范示意图 02](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-55.md",
+    "line": 23,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/3_suggestion/03.png",
+    "inferred_description": "技能图标规范示意图 03",
+    "context": "（技能图标规范，连续4张示意图之第3张）",
+    "placeholder": "![待补充：技能图标规范示意图 03](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-55.md",
+    "line": 25,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/3_suggestion/04.png",
+    "inferred_description": "技能图标规范示意图 04",
+    "context": "（技能图标规范，连续4张示意图之第4张）",
+    "placeholder": "![待补充：技能图标规范示意图 04](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-58.md",
+    "line": 42,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/add_sample.png",
+    "inferred_description": "添加语料示例截图",
+    "context": "我们将这些提问方式添加进入控制台，示例如下：\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/add_sample.png)\n\n## 编写句式选择",
+    "placeholder": "![待补充：添加语料示例截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-58.md",
+    "line": 78,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/change_slot.png",
+    "inferred_description": "修改语义槽截图",
+    "context": "每个语义槽均需与实体绑定。在以上的例子中，我们将语义槽`{company}`与实体`expressCompany`绑定。\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/change_slot.png)\n\n### 3.1. 自定义实体",
+    "placeholder": "![待补充：修改语义槽截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-58.md",
+    "line": 90,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/creat_entity.png",
+    "inferred_description": "创建实体截图",
+    "context": "- 实体标识：`expressCompany`\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/creat_entity.png)\n\n如下图为实体添加词条，建议`词条`填写归一化的实体名，`别名`填词条用户所有的可能表述方式。",
+    "placeholder": "![待补充：创建实体截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-58.md",
+    "line": 110,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/fill_slots.png",
+    "inferred_description": "填槽配置截图",
+    "context": "开发者可以在「意图编辑页-实体」中将实体勾选为「对话必须」，当缺少必须的实体时，会主动追问，参照下图设置。\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/fill_slots.png)\n\n平台暂不支持可视化的配置槽位确认（ConfirmSlot）",
+    "placeholder": "![待补充：填槽配置截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-60.md",
+    "line": 24,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/publish.png",
+    "inferred_description": "技能发布截图",
+    "context": "\n技能发布前，**保存并体验** 只能在页面上的 **快速体验** 中验证效果，如果想要在AIUI应用中生效，必须点击 **私有发布** 按钮。\n ![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/publish.png)\n\n### 1.3. 技能发布",
+    "placeholder": "![待补充：技能发布截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-61.md",
+    "line": 10,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/experience.png",
+    "inferred_description": "快速体验截图",
+    "context": "技能和实体的配置保存并构建完成后，在页面右侧的测试窗，输入“查询顺丰的12345”，可查看结构化数据结果。\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/experience.png)\n\n## 测试返回",
+    "placeholder": "![待补充：快速体验截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-62.md",
+    "line": 10,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/post_process_flow.png",
+    "inferred_description": "技能后处理流程图",
+    "context": "## 业务逻辑\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/post_process_flow.png)\n\n## 能力",
+    "placeholder": "![待补充：技能后处理流程图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-62.md",
+    "line": 36,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/cloud_function.png",
+    "inferred_description": "云函数架构图",
+    "context": "云函数的是 FaaS （Function as a Service）服务，运行在讯飞服务器。\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/cloud_function.png)\n\n#### 运行环境",
+    "placeholder": "![待补充：云函数架构图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-62.md",
+    "line": 92,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/cf_exp.png",
+    "inferred_description": "云函数调用示例截图",
+    "context": "```\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/cf_exp.png)\n\n如果您不会编写代码，但是想为您的技能增加回复，只需要把以下代码复制进入代码编辑框，修改第12行之后，保存并构建即可。",
+    "placeholder": "![待补充：云函数调用示例截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-62.md",
+    "line": 153,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/webhook.png",
+    "inferred_description": "Webhook 架构图",
+    "context": "Webhook的本质是一个web调用，若通过公网部署，技能耗时会增加。\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/4_private_skill/webhook.png)\n\n使用Webhook流程",
+    "placeholder": "![待补充：Webhook 架构图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-68.md",
+    "line": 19,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/studio-console.png",
+    "inferred_description": "技能工作室控制台截图",
+    "context": "在技能工作室的[【设备人设】](https://aiui.xfyun.cn/studio/character)中创建。\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/studio-console.png)\n\n默认人设**蓝小飞**不可删除，用户可在“蓝小飞”基础上编辑，也可以新建人设。新建人设的属性值默认开启且为空。",
+    "placeholder": "![待补充：技能工作室控制台截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-68.md",
+    "line": 27,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/null_value.png",
+    "inferred_description": "设备人设空值属性截图",
+    "context": "设备人设有46种属性，分类为基础信息，联系方式，社会关系等。我们为每种属性配置了系统问法与回复。其中问法由AIUI定义，在页面中只展示了3种示例问法，回复则分为两种情况，**属性值为空或非空**：\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/null_value.png)\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/value.png)",
+    "placeholder": "![待补充：设备人设空值属性截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/custom_biz/doc-68.md",
+    "line": 29,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/value.png",
+    "inferred_description": "设备人设属性值配置截图",
+    "context": "![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/null_value.png)\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/4_skill_develop/6_portrait/value.png)\n\n如上图，当姓名的属性值为空时，系统回复：“这可是个秘密哦”；当属性值非空时，则会将属性值以参数的形式带入系统回复之中：“我叫{name}，是你的家庭小助理”等等，这里的{name}值=“小叮当”。需要注意的是，这里的系统回复也只展示3条示例回复，实际回复不止这些，当用户语料命中人设后，系统将会从众多的系统回复中随机返回一条给用户。",
+    "placeholder": "![待补充：设备人设属性值配置截图](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/hardware/doc-32.md",
+    "line": 20,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/3_access_service/access_evm/screenshot_1519544156229.png",
+    "inferred_description": "AIUI 评估板集成架构图01",
+    "context": "开发者APP集成[AIUIServiceKit](https://aiui-doc.xf-yun.com/project-1/doc-34/)，运行在AIUI模块上，从AIUIService获取结果，进行解析处理，与评估板上AIUIProductDemo的效果类似，完整结构如下图所示：\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/3_access_service/access_evm/screenshot_1519544156229.png)\n\n具体集成方法请参见[AIUIServiceKit SDK](AIUIServiceKitSDK.md)，对AIUI核心板模块有任何疑问的可参考[`AIUI模块数据手册`](https://xfyun-doc.cn-bj.ufileos.com/1519542857029703/AIUI模块XFAI0801数据手册V0.3.pdf)。",
+    "placeholder": "![待补充：AIUI 评估板集成架构图01](/_images/placeholder.svg)"
+  },
+  {
+    "file": "raw_docs/hardware/doc-32.md",
+    "line": 90,
+    "original_url": "https://aiui-file.cn-bj.ufileos.com/aiui-doc/3_access_service/access_evm/screenshot_1519546039919.png",
+    "inferred_description": "AIUI 评估板集成架构图02",
+    "context": "### 集成说明\n\n![](https://aiui-file.cn-bj.ufileos.com/aiui-doc/3_access_service/access_evm/screenshot_1519546039919.png)\n\n如上图所示，为上位机模式的开发结构图，UARTService充当AIUIService和上位机之间的中介，一面负责将AIUI的结果通过串口发送给上位机，一面将上位机通过串口发送的指令发送到AIUI。",
+    "placeholder": "![待补充：AIUI 评估板集成架构图02](/_images/placeholder.svg)"
+  }
+]
