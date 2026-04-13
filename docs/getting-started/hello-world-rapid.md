@@ -148,4 +148,4 @@ case AIUIConstant.EVENT_RESULT: {
 - [AIUI 应用配置](/app-config/) — 详细了解应用的各项配置
 - [SDK 开发接入 — 极速超拟人链路](/sdk-dev/ultra-chain/) — 完整的 SDK 开发文档
 - [API 开发接入 — 极速超拟人链路](/api-dev/ultra-chain/) — 完整的 API 开发文档
-- [技能工作室](/custom-biz/skill-studio/) — 创建自定义技能
+- [技能工作室](/custom-biz/skill-studio/overview) — 创建自定义技能

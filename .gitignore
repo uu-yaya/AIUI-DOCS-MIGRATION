@@ -1,1 +1,5 @@
 dist/
+.claude/
+.idea/
+docs/.vitepress/cache/
+__pycache__/
