@@ -49,11 +49,11 @@ Manifest中注册信息如下source:
 
 评估板控制端ControlClient配置的appid和key就是通过tcp发送给ControlService，ControlService再通过如上的ContentProvider提供给AIUIService。
 
-### 注意事项：
+::: warning 注意事项
+谁定义了配置的 ContentProvider，就读取谁的配置。
 
-谁定义了配置的ContentProvider，就读取谁的配置。
-
-ControlService和AIUIDemo都定义了相同的ContentProvider，这是不能同时安装的原因。
+ControlService 和 AIUIDemo 都定义了相同的 ContentProvider，这是不能同时安装的原因。
+:::
 
 **ControlService:**
 
@@ -195,9 +195,9 @@ adb pull /sdcard/AIUI/cfg/aiui.cfg aiui.cfg
 }
 ```
 
-### 注意：
-
+::: warning 注意
 资源在sdcard中，res\_type一定要写path；
+:::
 
 修改完成后使用adb导入配置文件:
 
@@ -207,9 +207,9 @@ adb push aiui.cfg /sdcard/AIUI/cfg/aiui.cfg
 
 ④重启。使用adb命令重启系统：`adb shell reboot`，或者在手机端点击“同步配置”都可以让配置加载生效。
 
-### 注意：
-
+::: warning 注意
 如需恢复默认配置，通过手机端ControlClient清空配置即可
+:::
 
 ### 发音人配置
 
@@ -246,9 +246,9 @@ adb pull /sdcard/AIUI/cfg/aiui.cfg aiui.cfg
 }
 ```
 
-### 注意：
-
+::: warning 注意
 资源在sdcard中，res\_type一定要写path；
+:::
 
 修改完成后使用adb导入配置文件:
 
@@ -258,9 +258,9 @@ adb push aiui.cfg /sdcard/AIUI/cfg/aiui.cfg
 
 第四步：重启。使用adb命令重启系统：`adb shell reboot`，或者在手机端点击“同步配置”都可以让配置加载生效。
 
-### 注意：
-
+::: warning 注意
 如需恢复默认配置，通过手机端ControlClient清空配置即可
+:::
 
 **AIUI支持在线发音人，在线发音人下不需要指定资源路径，按如下配置即可：**
 

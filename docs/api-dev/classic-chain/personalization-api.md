@@ -33,9 +33,9 @@ title: 用户个性化 API
 | X-CurTime | 当前UTC时间戳，从1970年1月1日0点0 分0 秒开始到现在的秒数(String) | 是 |
 | X-CheckSum | MD5(accountKey + Nonce + CurTime),三个参数拼接的字符串，进行MD5哈希计算 | 是 |
 
-### 注意：
-
+::: warning 注意
 CheckSum有效期：出于安全性考虑，每个CheckSum的有效期为5分钟(用curTime计算)，同时CurTime要与标准时间同步，否则，时间相差太大，服务端会直接认为CurTime无效。
+:::
 
 \* checkSum生成示例：
 ```java
@@ -99,9 +99,9 @@ data为web页面定义的主字段、从字段给的json格式对应的base64。
 {"name":"维生素功能饮料","alias":"红牛|东鹏特饮|乐虎"}
 ```
 
-### 注意：
-
+::: warning 注意
 每条数据之间用换行符隔开。
+:::
 
 代码拼接时需要在第一行前边添加换行符
 

@@ -335,10 +335,16 @@ export default {
         { text: "动态实体", link: "/custom-biz/skill-studio/dynamic-entities" },
         { text: "模糊匹配", link: "/custom-biz/skill-studio/fuzzy-match" },
         { text: "填槽对话", link: "/custom-biz/skill-studio/slot-filling" },
-        { text: "技能设计规范", link: "/custom-biz/skill-studio/design-guide" },
-        { text: "语音技能设计规范", link: "/custom-biz/skill-studio/voice-design-guide" },
-        { text: "审核规范", link: "/custom-biz/skill-studio/review-guide" },
-        { text: "图标规范", link: "/custom-biz/skill-studio/icon-guide" },
+        {
+          text: "技能设计规范",
+          collapsed: true,
+          items: [
+            { text: "概述", link: "/custom-biz/skill-studio/design-guide" },
+            { text: "语音技能设计规范", link: "/custom-biz/skill-studio/voice-design-guide" },
+            { text: "审核规范", link: "/custom-biz/skill-studio/review-guide" },
+            { text: "图标规范", link: "/custom-biz/skill-studio/icon-guide" },
+          ],
+        },
       ],
     },
     {

@@ -69,9 +69,9 @@ ws[s]://wsapi.xfyun.cn/v1/aiui?appid=xxx&checksum=xxx&curtime=xxx&param=xxx
 | checksum | string | 是 | 令牌，生成方法：(APIKey + curtime + param拼接字符串)，根据signtype参数的算法加密 | 02607694eyjzy2vuzsi6im1haw4ifq |
 | param | string | 是 | 参数用 Base64 编码后的字符串，详见 param 字段说明 | eyJzY2VuZSI6Im1haW4ifQ== |
 
-### 注意：
-
+::: warning 注意
 APIKey：接口密钥，在 AIUI 开放平台查看；
+:::
 
 checksum 有效期： 5 分钟(用curtime计算)， curtime必须是东八区标准时间，否则无效；
 

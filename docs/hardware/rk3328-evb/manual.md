@@ -184,9 +184,9 @@ cat vtn_mic6_circle.ini
 | tone\_goodbye.mp3 | \ | 休眠提示音频 |
 | volume.wav | \ | 音量操作提示音频 |
 
-### 注意：
-
+::: warning 注意
 音频文件名称中的 xxx 代表发音人名称，对应aiui.cfg中voice\_name 取值。当发音人名称所在音频不存在时，默认加载 x4\_lingxiaoying\_em\_v2 发音人对应的相关提示音频
+:::
 
 修改方式：
 1、本地按照音频内容制作相关音频文件，并根据需要替换的发音人名称重新命名，最后push到 /sdcard/ProductDemo/wav 目录下。

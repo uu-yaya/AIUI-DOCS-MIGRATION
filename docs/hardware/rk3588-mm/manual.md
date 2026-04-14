@@ -262,9 +262,9 @@ adb pull /sdcard/AIUI/cfg/aiui.cfg
 
 第三步：安装软件：双击install.bat
 
-### 注意：
-
+::: warning 注意
 固件获取请联系项目或技术支持同事，无特殊需求无需更新固件
+:::
 
 ![](/media/202409/1726642997.3914196.png)
 

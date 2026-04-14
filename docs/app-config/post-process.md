@@ -64,9 +64,9 @@ AIUI 后处理能够根据识别、语义结果，提供个性化的服务。
 
 - 将token进行sha1加密，放在响应的body中返回
 
-### 注意：
-
+::: warning 注意
 校验流程是可选操作，但消息返回必须正确才能校验成功
+:::
 
 示例：
 
@@ -125,9 +125,9 @@ AIUI正常完成服务后，把结果POST到开发者的URL上。
    {消息主体}
    ```
 
-### 注意：
-
+::: warning 注意
 可以根据Content-Type的类型来解析相应的消息主体。例如：当POST请求的Content-Type为application/json时,要根据Json格式解析消息主体。
+:::
 
 - 消息主体格式
 
@@ -210,9 +210,9 @@ int message_sigcheck（token ，msgsignature ，timestamp ，srand ，data）
 }
 ```
 
-### 注意：
-
+::: warning 注意
 为了消息的安全，建议校验。
+:::
 
 #### 2.3.2. 消息加解密说明
 

@@ -6,6 +6,8 @@ title: 动态实体
 **实体**：就是词库，在语料中与词槽绑定的内容，模板语料中词槽用{}包裹。`例：{city}词槽绑定的实体词库包含北京，上海，深圳`
 :::
 
+## 动态实体的定义和维度
+
 ### 1.1. 动态实体的资源
 
 一个动态实体可以包含多个资源(Resource)，资源定义中包含了`资源名称`，`生效维度`、`词条字段名`、`词条别名字段`。
@@ -381,9 +383,9 @@ AIUIMessage中data需要构建以下结构的json数据:
 }
 ```
 
-### 注意：
-
+::: warning 注意
 CheckSum有效期：出于安全性考虑，每个CheckSum的有效期为5分钟(用curTime计算)，同时CurTime要与标准时间同步，否则，时间相差太大，服务端会直接认为CurTime无效。
+:::
 
 \*\*XXX为用户的命名空间（namespace），在技能工作室任意一个技能的基本信息中可以查看。\*\*
 
@@ -403,13 +405,12 @@ CheckSum有效期：出于安全性考虑，每个CheckSum的有效期为5分钟
    {"appName": "讯飞输入法"， "alias": "", "extra": "uuu"}
    ```
 
-   ### 注意：
+::: warning 注意
+1. 每条数据之间用换行符隔开。
+2. 代码拼接时，第一行前边需要添加换行符
 
-   1. 每条数据之间用换行符隔开。
-
-   2. 代码拼接时，第一行前边需要添加换行符
-
-   data的实际内容是将以上json数据使用base64编码后的结果。
+data 的实际内容是将以上 json 数据使用 base64 编码后的结果。
+:::
 
 **同步上传的代码示例**
 
@@ -549,9 +550,9 @@ private void processCmdReturnEvent(AIUIEvent event) {
 }
 ```
 
-### 注意：
-
+::: warning 注意
 1、请上传资源数据后至少间隔10秒后再进行查询打包状态操作。
+:::
 
 2、具体代码示例工程可参考AIUIChatDemo中AIUIRepository类的queryDynamicSyncStatus方法实现。
 
@@ -608,9 +609,9 @@ b. cfg文件配置
 
 那对应需要在交互时使用该自定义维度对应的动态实体就需要加入`\"vendor\":\"spec_vendor\"`。
 
-### 注意：
-
+::: warning 注意
 set audioParams这种方式只会对语音交互生效，文本语义参考下面数据写入带pers\_param的方式
+:::
 
 ```java
 public static void MSG_sendTextForNlp(String text, String scene) {
@@ -661,9 +662,9 @@ mAIUIAgent.sendMessage(msg);
 audioParams.put("pers_param", "{\"AppID\":\"\", \"uid\":\"\"}");
 ```
 
-### 注意：
-
+::: warning 注意
 具体代码示例工程可参考[AIUIChatDemo](https://github.com/9oo9le/AIUIChatDemo)中AIUIRepository类的queryDynamicSyncStatus方法实现。
+:::
 
 动态实体需要5min才能生效。
 
