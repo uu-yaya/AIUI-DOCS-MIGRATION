@@ -11,8 +11,8 @@ description: AIUI 平台自定义业务开发指南
 
 <div class="nav-cards">
 
-- **[设备人设开发](/custom-biz/device-persona)** — 通过配置年龄，性别等属性值与回复语，让产品拟人化。
-- **[技能协议](/custom-biz/protocols/)** — 自定义技能开发包括以下步骤：
-- **[问答库开发](/custom-biz/qa-library/)** — 文档问答，是基于星火大模型知识库方案，高校检索文档信息，准确回答专业问题。支持开发者自定义知识点拆分逻辑、查看已拆分的知识点、编辑管理知识点。
+- **[设备人设开发](/custom-biz/device-persona/)** — 通过配置年龄、性别等属性值与回复语，让产品拟人化。
+- **[技能开发](/custom-biz/skill-studio/development/)** — 通过技能工作室创建自定义技能，配置意图与实体、编写语料、测试与发布全流程。
+- **[问答库开发](/custom-biz/qa-library/)** — 基于星火大模型知识库方案，支持语句问答、关键词问答、文档问答多种形式。
 
 </div>

@@ -320,7 +320,14 @@ export default {
       collapsed: false,
       items: [
         { text: "概述", link: "/custom-biz/" },
-        { text: "设备人设", link: "/custom-biz/device-persona" },
+      ],
+    },
+    {
+      text: "设备人设开发",
+      collapsed: false,
+      items: [
+        { text: "概述", link: "/custom-biz/device-persona/" },
+        { text: "配置指南", link: "/custom-biz/device-persona/guide" },
       ],
     },
     {
@@ -351,7 +358,7 @@ export default {
       text: "技能开发",
       collapsed: false,
       items: [
-        { text: "技能开发", link: "/custom-biz/skill-studio/development/" },
+        { text: "概述", link: "/custom-biz/skill-studio/development/" },
         { text: "创建技能", link: "/custom-biz/skill-studio/development/create" },
         { text: "意图配置", link: "/custom-biz/skill-studio/development/intent-config" },
         { text: "技能测试", link: "/custom-biz/skill-studio/development/testing" },
@@ -368,7 +375,7 @@ export default {
       text: "问答库",
       collapsed: false,
       items: [
-        { text: "问答库开发", link: "/custom-biz/qa-library/" },
+        { text: "概述", link: "/custom-biz/qa-library/" },
         { text: "语句问答", link: "/custom-biz/qa-library/sentence-qa" },
         { text: "关键词问答", link: "/custom-biz/qa-library/keyword-qa" },
         { text: "文档问答", link: "/custom-biz/qa-library/document-qa" },

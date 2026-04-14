@@ -54,7 +54,7 @@ https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
 
 ## 第二步：配置 AIUI 应用
 
-1. 登录 AIUI 平台，进入应用配置页面
+1. 登录 [AIUI 平台](https://aiui.xfyun.cn/)，进入应用配置页面
 2. 在 **模型选择** 区域，选择「三方大模型」
 3. 点击 **模型配置**
 

@@ -21,7 +21,7 @@ description: 在 Android 应用中集成 AIUI SDK，实现语音交互功能
 
 ## 第一步：下载 SDK
 
-1. 登录 AIUI 平台，进入应用管理页面
+1. 登录 [AIUI 平台](https://aiui.xfyun.cn/)，进入应用管理页面
 2. 点击「资源下载」，下载最新版 Android SDK
 
 SDK 压缩包包含以下关键内容：

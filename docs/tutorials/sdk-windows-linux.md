@@ -22,7 +22,7 @@ description: 在 Windows 或 Linux 平台集成 AIUI SDK，实现语音交互功
 
 ## 第一步：下载 SDK
 
-登录 AIUI 平台，进入应用管理页面，在「资源下载」中下载对应平台的 SDK。
+登录 [AIUI 平台](https://aiui.xfyun.cn/)，进入应用管理页面，在「资源下载」中下载对应平台的 SDK。
 
 ## 第二步：导入 SDK
 

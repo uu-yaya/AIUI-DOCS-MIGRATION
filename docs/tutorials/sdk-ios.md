@@ -20,7 +20,7 @@ description: 在 iOS 应用中集成 AIUI SDK，实现语音交互功能
 
 ## 第一步：下载 SDK
 
-登录 AIUI 平台，进入应用管理页面，在「资源下载」中下载最新版 iOS SDK。
+登录 [AIUI 平台](https://aiui.xfyun.cn/)，进入应用管理页面，在「资源下载」中下载最新版 iOS SDK。
 
 ## 第二步：导入 SDK
 
