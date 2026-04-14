@@ -157,7 +157,8 @@ export default {
     {
       text: "故障排查",
       items: [
-        { text: "故障排查", link: "/troubleshooting/" },
+        { text: "概述", link: "/troubleshooting/" },
+        { text: "排查指南", link: "/troubleshooting/guide" },
       ],
     },
   ],
@@ -492,11 +493,10 @@ export default {
     {
       text: "常见问题",
       items: [
-        { text: "常见问题", link: "/faq/" },
+        { text: "概述", link: "/faq/" },
         { text: "AIUI 常见问题", link: "/faq/aiui-faq" },
         { text: "评估板常见问题", link: "/faq/evb-faq" },
         { text: "动态实体常见问题", link: "/faq/dynamic-entity-faq" },
-        { text: "联系方式", link: "/faq/contact" },
       ],
     },
   ],
