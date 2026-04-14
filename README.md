@@ -1,6 +1,7 @@
 # AIUI 文档中心
 
 > 科大讯飞 AIUI 开放平台技术文档站，基于 [VitePress](https://vitepress.dev) 构建。
+> 本文档已部署在 https://uu-yaya.github.io/AIUI-DOCS-MIGRATION/
 
 ## 项目简介
 
