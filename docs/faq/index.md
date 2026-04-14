@@ -10,16 +10,29 @@ description: AIUI 平台常见问题与解决方案
 ## 本节内容
 
 <div class="design-cards">
+
 <div class="design-card">
-<a href="/faq/aiui-faq"><strong>AIUI 常见问题</strong></a>
-<p>AIUI 平台接入、应用配置、服务链路等使用问题汇总。</p>
+
+**[AIUI 常见问题](./aiui-faq)**
+
+AIUI 平台接入、应用配置、服务链路等使用问题汇总。
+
 </div>
+
 <div class="design-card">
-<a href="/faq/evb-faq"><strong>评估板常见问题</strong></a>
-<p>RK3328、RK3588 等硬件评估板使用与调试问题。</p>
+
+**[评估板常见问题](./evb-faq)**
+
+RK3328、RK3588 等硬件评估板使用与调试问题。
+
 </div>
+
 <div class="design-card">
-<a href="/faq/dynamic-entity-faq"><strong>动态实体常见问题</strong></a>
-<p>动态实体上传、生效、更新等开发疑问解答。</p>
+
+**[动态实体常见问题](./dynamic-entity-faq)**
+
+动态实体上传、生效、更新等开发疑问解答。
+
 </div>
+
 </div>

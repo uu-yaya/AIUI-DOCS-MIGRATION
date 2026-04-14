@@ -2,17 +2,72 @@
 title: AIUI 平台服务
 ---
 
-## AIUI平台服务
+::: info 概述
+AIUI（Artificial Intelligent User Interface）是讯飞开放平台面向开发者推出的 **一站式人机交互解决方案**，整合语音唤醒、语音识别、语义理解、大模型对话、语音合成、多模态感知等全链路 AI 能力。开发者无需理解底层技术细节，即可通过 SDK、API、硬件模组等多种方式，快速让设备具备"听得清、能理解、会思考、懂执行"的交互能力。
+:::
 
-对AIUI平台服务架构、能力模块及服务链路提供详细说明，并指导开发者快速上手体验！
+## 平台定位
 
+AIUI 致力于降低语音交互开发门槛，让每一个硬件产品、应用服务都能轻松接入 AI 能力：
 
-<div class="nav-cards">
+- **面向硬件厂商**：提供 Android / iOS / Linux / RTOS 全平台 SDK 与成熟的硬件模组方案
+- **面向应用开发者**：提供 WebSocket / HTTP API，支持服务端、Web、跨平台工具直接调用
+- **面向业务运营**：提供技能工作室、问答库、设备人设等自定义业务能力，无需编码即可完成领域定制
 
-- **[AIUI平台介绍](/platform-service/overview)** — 介绍AIUI平台服务架构，并提供在离线模块能力说明
-- **[AIUI应用介绍](/platform-service/app-intro)** — AIUI平台发展至今，不同应用版本与服务链路关系说明
-- **[AIUI服务链路介绍](/platform-service/service-chain)** — 详细介绍传统语义交互链路、通用大模型交互链路、极速超拟人交互链路的区别
-- **[AIUI平台能力概述](/platform-service/capabilities)** — 介绍AIUI平台核心能力。
-- **[快速体验](/platform-service/quickstart)** — 基于SDK下载和配置快速体验。
+## 三条服务链路
+
+根据设备形态和能力需求，AIUI 提供三条不同特性的服务链路：
+
+- **传统语义链路** — 基于规则 + 统计的语义引擎，稳定、低资源，适合指令式交互（智能家居、车载控制等）
+- **通用大模型链路** — 接入讯飞星火大模型，支持开放式对话、知识问答、内容生成
+- **极速超拟人链路** — 端到端低延迟 + 情感表达 + 多模态，适合虚拟人、陪伴机器人等沉浸式交互场景
+
+## 典型应用场景
+
+儿童玩具、智能音箱、车载语音、陪伴机器人、虚拟数字人、智慧轨交、多语种透明屏、移动数字人、大屏调度等多样化硬件与应用场景。
+
+## 本节内容
+
+<div class="design-cards">
+
+<div class="design-card">
+
+**[AIUI 平台介绍](./overview)**
+
+介绍 AIUI 平台服务架构，并提供在离线模块能力说明。
+
+</div>
+
+<div class="design-card">
+
+**[AIUI 应用介绍](./app-intro)**
+
+AIUI 平台发展至今，不同应用版本与服务链路关系说明。
+
+</div>
+
+<div class="design-card">
+
+**[AIUI 服务链路介绍](./service-chain)**
+
+详细介绍传统语义、通用大模型、极速超拟人三大交互链路的区别。
+
+</div>
+
+<div class="design-card">
+
+**[AIUI 平台能力概述](./capabilities)**
+
+介绍 AIUI 平台核心能力。
+
+</div>
+
+<div class="design-card">
+
+**[快速体验](./quickstart)**
+
+基于 SDK 下载和配置快速体验 AIUI 服务。
+
+</div>
 
 </div>

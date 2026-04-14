@@ -4,6 +4,7 @@ export default {
     {
       text: "快速开始",
       items: [
+        { text: "概述", link: "/getting-started/" },
         { text: "AIUI 平台介绍", link: "/getting-started/introduction" },
         { text: "选择接入路径", link: "/getting-started/choose-your-path" },
         { text: "极速超拟人体验", link: "/getting-started/hello-world-rapid" },
@@ -16,6 +17,7 @@ export default {
     {
       text: "开发教程",
       items: [
+        { text: "概述", link: "/tutorials/" },
         { text: "创建你的第一个 AIUI 应用", link: "/tutorials/create-app" },
         { text: "Android SDK 集成教程", link: "/tutorials/sdk-android" },
         { text: "iOS SDK 集成教程", link: "/tutorials/sdk-ios" },
@@ -32,6 +34,12 @@ export default {
     },
   ],
   "/reference/": [
+    {
+      text: "参考文档",
+      items: [
+        { text: "概述", link: "/reference/" },
+      ],
+    },
     {
       text: "API 参考 — 极速超拟人链路",
       collapsed: false,
@@ -270,18 +278,30 @@ export default {
       ],
     },
     {
-      text: "SDK 链路接入",
+      text: "传统语义链路",
       collapsed: false,
       items: [
-        { text: "传统语义链路", link: "/sdk-dev/classic-chain/" },
+        { text: "概述", link: "/sdk-dev/classic-chain/" },
         { text: "链路配置", link: "/sdk-dev/classic-chain/config" },
         { text: "个性化数据", link: "/sdk-dev/classic-chain/personalization" },
-        { text: "通用大模型链路", link: "/sdk-dev/llm-chain/" },
+      ],
+    },
+    {
+      text: "通用大模型链路",
+      collapsed: false,
+      items: [
+        { text: "概述", link: "/sdk-dev/llm-chain/" },
         { text: "链路配置", link: "/sdk-dev/llm-chain/config" },
         { text: "个性化数据", link: "/sdk-dev/llm-chain/personalization" },
         { text: "超拟人合成", link: "/sdk-dev/llm-chain/ultra-tts" },
         { text: "声音复刻", link: "/sdk-dev/llm-chain/voice-clone" },
-        { text: "极速超拟人链路", link: "/sdk-dev/ultra-chain/" },
+      ],
+    },
+    {
+      text: "极速超拟人链路",
+      collapsed: false,
+      items: [
+        { text: "概述", link: "/sdk-dev/ultra-chain/" },
         { text: "链路配置", link: "/sdk-dev/ultra-chain/config" },
         { text: "个性化数据", link: "/sdk-dev/ultra-chain/personalization" },
         { text: "流式合成", link: "/sdk-dev/ultra-chain/streaming-tts" },
@@ -295,17 +315,35 @@ export default {
       text: "AIUI API 开发",
       items: [
         { text: "概述", link: "/api-dev/" },
-        { text: "传统语义链路", link: "/api-dev/classic-chain/" },
+      ],
+    },
+    {
+      text: "传统语义链路",
+      collapsed: false,
+      items: [
+        { text: "概述", link: "/api-dev/classic-chain/" },
         { text: "交互 API", link: "/api-dev/classic-chain/interact-api" },
         { text: "个性化 API", link: "/api-dev/classic-chain/personalization-api" },
         { text: "合成能力", link: "/api-dev/classic-chain/tts-usage" },
-        { text: "通用大模型链路", link: "/api-dev/llm-chain/" },
+      ],
+    },
+    {
+      text: "通用大模型链路",
+      collapsed: false,
+      items: [
+        { text: "概述", link: "/api-dev/llm-chain/" },
         { text: "服务鉴权", link: "/api-dev/llm-chain/auth" },
         { text: "交互 API", link: "/api-dev/llm-chain/interact-api" },
         { text: "个性化 API", link: "/api-dev/llm-chain/personalization-api" },
         { text: "声音复刻 API", link: "/api-dev/llm-chain/voice-clone-api" },
         { text: "合成能力", link: "/api-dev/llm-chain/tts-usage" },
-        { text: "极速超拟人链路", link: "/api-dev/ultra-chain/" },
+      ],
+    },
+    {
+      text: "极速超拟人链路",
+      collapsed: false,
+      items: [
+        { text: "概述", link: "/api-dev/ultra-chain/" },
         { text: "服务鉴权", link: "/api-dev/ultra-chain/auth" },
         { text: "交互 API", link: "/api-dev/ultra-chain/interact-api" },
         { text: "个性化 API", link: "/api-dev/ultra-chain/personalization-api" },

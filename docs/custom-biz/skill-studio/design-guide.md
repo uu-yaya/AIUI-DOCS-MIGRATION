@@ -7,16 +7,29 @@ title: 技能设计规范
 :::
 
 <div class="design-cards">
+
 <div class="design-card">
-<a href="/custom-biz/skill-studio/voice-design-guide"><strong>语音技能设计规范</strong></a>
-<p>语音交互流程的设计原则与对话脚本规范</p>
+
+**[语音技能设计规范](./voice-design-guide)**
+
+语音交互流程的设计原则与对话脚本规范。
+
 </div>
+
 <div class="design-card">
-<a href="/custom-biz/skill-studio/review-guide"><strong>技能接入审核规范</strong></a>
-<p>技能发布前的接入审核标准与注意事项</p>
+
+**[技能接入审核规范](./review-guide)**
+
+技能发布前的接入审核标准与注意事项。
+
 </div>
+
 <div class="design-card">
-<a href="/custom-biz/skill-studio/icon-guide"><strong>技能图标图片规范</strong></a>
-<p>技能图标、封面图的尺寸与视觉规范</p>
+
+**[技能图标图片规范](./icon-guide)**
+
+技能图标、封面图的尺寸与视觉规范。
+
 </div>
+
 </div>

@@ -510,6 +510,14 @@ html.dark .design-card a { color: #5a9cf5; }
   color: #6b7280;
   line-height: 1.5;
 }
+.design-card p:first-child {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+.design-card p:first-child strong {
+  font-weight: 600;
+}
 html.dark .design-card p { color: rgba(255, 255, 255, 0.6); }
 
 @media (max-width: 768px) {

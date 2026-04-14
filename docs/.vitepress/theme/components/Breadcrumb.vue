@@ -1,5 +1,5 @@
 <script setup>
-import { useData, useRoute } from 'vitepress'
+import { useData, useRoute, withBase } from 'vitepress'
 import { computed } from 'vue'
 
 const { page, site } = useData()
@@ -7,15 +7,26 @@ const route = useRoute()
 
 const crumbs = computed(() => {
   const path = route.path
-  const parts = path.replace(/\.html$/, '').split('/').filter(Boolean)
+  // 去掉 base 前缀，只保留文档路径部分
+  const base = (site.value.base || '/').replace(/\/$/, '')
+  let rel = path
+  if (base && rel.startsWith(base)) {
+    rel = rel.slice(base.length)
+  }
+  const parts = rel.replace(/\.html$/, '').split('/').filter(Boolean)
   if (parts.length <= 1) return []
 
   const labels = {
     'platform-service': '平台服务',
+    'getting-started': '快速开始',
+    'tutorials': '开发教程',
+    'troubleshooting': '故障排查',
+    'reference': 'API 参考',
     'app-config': '应用配置',
     'sdk-dev': 'SDK 开发',
     'api-dev': 'API 开发',
     'custom-biz': '自定义业务',
+    'device-persona': '设备人设开发',
     'hardware': '硬件模组',
     'faq': '常见问题',
     'legal': '法律条款',
@@ -36,15 +47,19 @@ const crumbs = computed(() => {
     'ac7911b': 'AC7911B',
     'zg803': 'ZG803',
     'legacy-evb': '旧评估板',
+    'api': 'API 参考',
+    'traditional': '传统语义',
+    'llm': '通用大模型',
+    'rapid': '极速超拟人',
   }
 
-  const items = []
+  const items = [{ text: '首页', link: withBase('/') }]
   let href = '/'
   for (let i = 0; i < parts.length - 1; i++) {
     href += parts[i] + '/'
     items.push({
       text: labels[parts[i]] || parts[i],
-      link: href,
+      link: withBase(href),
     })
   }
   return items

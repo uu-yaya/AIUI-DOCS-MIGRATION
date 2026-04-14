@@ -15,14 +15,14 @@ export default defineConfig({
     siteTitle: 'AIUI 开发文档',
 
     nav: [
-      { text: '快速开始', link: '/getting-started/introduction' },
-      { text: '开发教程', link: '/tutorials/create-app' },
+      { text: '快速开始', link: '/getting-started/' },
+      { text: '开发教程', link: '/tutorials/' },
       {
         text: '开发接入',
         items: [
           { text: 'SDK 开发', link: '/sdk-dev/' },
           { text: 'API 开发', link: '/api-dev/' },
-          { text: '参考文档', link: '/reference/sdk/' },
+          { text: '参考文档', link: '/reference/' },
         ],
       },
       {
